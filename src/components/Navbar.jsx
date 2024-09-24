@@ -1,0 +1,121 @@
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import LeftLogo from "/src/assets/ICARr_1 1.png"
+import RightLogo from "/src/assets/NIASM-Recruitment 1.png"
+
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  return (
+    <nav className="bg-white shadow-md">
+      {/* First div: Logo and heading */}
+      <div className="container mx-auto px-4 md:px-16 flex justify-between items-center py-4">
+        {/* Left logo */}
+        <div className="flex items-center">
+          <img
+            src={LeftLogo}
+            alt="Left Logo"
+            className="w-12 md:w-16"
+          />
+        </div>
+
+        {/* Center heading and subtext */}
+        <div className="flex flex-col items-center">
+          <h1 className="text-xl md:text-[39px] font-semibold text-[#000]">Invasive Pest</h1>
+          <p className="text-xs md:text-2xl font-normal text-center mt-[15px] text-[#000]">
+            ICAR-National Institute of Abiotic Stress Management
+          </p>
+        </div>
+
+        {/* Right logo */}
+        <div className="flex items-center">
+          <img
+            src={RightLogo}
+            alt="Right Logo"
+            className="w-12 md:w-[72px]"
+          />
+        </div>
+
+        {/* Hamburger menu for mobile */}
+        <button
+          className="md:hidden block text-black"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-8 w-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}
+            />
+          </svg>
+        </button>
+      </div>
+
+      {/* Second div: Links */}
+      <div className={`md:block ${menuOpen ? "block" : "hidden"} bg-white`}>
+        <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-10 py-4">
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  : "text-[#393939] font-medium pb-1"
+              }
+            >
+              Home
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  : "text-[#393939] font-medium pb-1"
+              }
+            >
+              About Us
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/types"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  : "text-[#393939] font-medium pb-1"
+              }
+            >
+              Types
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  : "text-[#393939] font-medium pb-1"
+              }
+            >
+              Contact Us
+            </NavLink>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
