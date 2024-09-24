@@ -18,7 +18,7 @@ function App() {
           <Route path="/types" element={<Types />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );
