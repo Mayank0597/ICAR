@@ -7,7 +7,7 @@ const GetInTouch = () => {
   return (
     <div className="bg-[#F0F5EB] py-[71px] px-4 md:px-20 flex flex-col md:flex-row justify-between items-center">
       {/* Left Side - Contact Info */}
-      <div className="w-full md:w-1/2 mb-12 md:mb-0">
+      <div className="w-full md:w-1/2 mb-12 md:mb-0 md:ml-[90px]">
         <h2 className="text-3xl md:text-[46px] font-semibold mb-12 text-[#393939]">
           <span className='text-[#6BA85D]'>Get in Touch </span>
            with Us!
@@ -50,7 +50,7 @@ const GetInTouch = () => {
       </div>
 
       {/* Right Side - Contact Form */}
-      <div className="bg-[#6BA85D] w-full md:w-[629px] h-auto md:h-[605px] p-8 md:py-[60px] md:pl-[54px] md:pr-[39px] rounded-lg">
+      <div className="bg-[#6BA85D] w-full md:w-[629px] h-auto md:h-[605px] p-8 md:py-[60px] md:pl-[54px] md:pr-[39px] md:mr-[47px] rounded-lg">
         <form className="">
           {/* Name */}
           <div>
