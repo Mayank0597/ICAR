@@ -17,3 +17,19 @@
   padding-top: 10px; /* Add padding for spacing */
   margin: 0 25px 0 53px;
 }
+
+.accordion-button {
+  /* position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%; */
+  /* padding: 12px 15px !important; */
+  /* font-size: 1rem;
+  color: var(--bs-accordion-btn-color);
+  text-align: left;
+  background-color: var(--bs-accordion-btn-bg);
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: var(--bs-accordion-transition); */
+}

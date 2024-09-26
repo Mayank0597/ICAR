@@ -1,10 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img1 from "/src/assets/Frame 1921 (5).png"; // Replace with your image path
+import img1 from "/src/assets/Frame 1921.png"; // Replace with your image path
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
 import rightTick from "/src/assets/circle-check-big.png";
 
-const TypesComponentPart2 = () => {
+const TypesComponentPart3 = () => {
   const accordionData = [
     {
       id: 1,
@@ -87,12 +87,21 @@ const TypesComponentPart2 = () => {
   ];
 
   return (
-    <div className="container p-5">
-      <div className="row">
-        {/* Left Side Content */}
-        <div className="col-lg-6 pe-5">
+    <div className="container py-5">
+      <div className="row justify-content-center">
+        {/* Left Side Image */}
+        <div className="col-lg-6 px-5">
+          <img
+            src={img1}
+            alt="Virus"
+            className="img-fluid rounded w-full"
+            // style={{ width: "607px", height: "787px", objectFit: "cover" }}
+          />
+        </div>
+        {/* Right Side Content */}
+        <div className="col-lg-6 px-5">
           {/* Heading */}
-          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">Bacteria</h2>
+          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">Virus</h2>
 
           {/* Lorem Text */}
           <p className="mb-4 text-[#9F9F9F] font-medium text-justify">
@@ -117,25 +126,16 @@ const TypesComponentPart2 = () => {
                   {title}
                 </Accordion.Header>
 
-                <Accordion.Body className="text-[#9F9F9F] font-medium">
+                <Accordion.Body className="text-[#9F9F9F] text-base font-medium">
                   {content}
                 </Accordion.Body>
               </Accordion.Item>
             ))}
           </Accordion>
         </div>
-
-        {/* Right Side Image */}
-        <div className="col-lg-6">
-          <img
-            src={img1}
-            alt="Virus"
-            className="w-full h-full ps-5 rounded"
-          />
-        </div>
       </div>
     </div>
   );
 };
 
-export default TypesComponentPart2;
+export default TypesComponentPart3;

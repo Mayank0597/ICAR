@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "/src/assets/Frame 42.png"
+import backgroundImage from "/src/assets/Frame 42.png";
 import { useNavigate } from "react-router-dom";
 
 const ContactUsSection = () => {
@@ -24,8 +24,10 @@ const ContactUsSection = () => {
 
         {/* Contact Us Button */}
         <button
-        onClick={() => navigate("/contact")}
-        className="bg-[#6BA85D] text-white py-2 px-6 text-lg rounded border border-transparent hover:bg-white hover:text-black hover:border-[#6BA85D] duration-300 transition-all">
+          onClick={() => navigate("/contact")}
+          // bg-[#6BA85D] text-[#FFF] py-2 px-6 text-lg rounded border border-transparent hover:bg-white hover:text-black hover:border-[#6BA85D] duration-300 transition-all
+          className="bg-[#6BA85D] text-[#FFF] px-6 py-2 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300"
+        >
           Contact Us
         </button>
       </div>

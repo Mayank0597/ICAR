@@ -4,6 +4,7 @@ import image2 from "/src/assets/Frame 14 (1).png";
 import image3 from "/src/assets/Frame 14 (2).png";
 import image4 from "/src/assets/Frame 14 (3).png";
 import image5 from "/src/assets/Frame 14 (4).png";
+import { Link } from "react-router-dom";
 
 const CardComponent = () => {
   return (
@@ -21,15 +22,17 @@ const CardComponent = () => {
             alt="Card 1"
             className="w-full h-[340px] rounded-t"
           />
-          <div className="p-5">
+          <div className="pt-[21px] pl-[20px] pr-[23px]">
             <h3 className="text-xl font-semibold mb-1 text-[#393939]">Virus</h3>
             <p className="text-[#949191] mb-8">
               Lorem ipsum dolor sit amet, consectetur adipisng elit. Sed do
               eiusmod tempor incididunut labore et dolore magna aliqua.
             </p>
-            <button className="bg-[#6BA85D] text-white px-6 py-2 rounded hover:bg-[#5A9450] transition duration-300">
-              View More
-            </button>
+            <Link to="/types#part1">
+              <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
+                View More
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -40,7 +43,7 @@ const CardComponent = () => {
             alt="Card 2"
             className="w-full h-[340px] rounded-t"
           />
-          <div className="p-5">
+          <div className="pt-[21px] pl-[20px] pr-[23px]">
             <h3 className="text-xl font-semibold mb-1 text-[#393939]">
               Bacteria
             </h3>
@@ -48,9 +51,11 @@ const CardComponent = () => {
               Lorem ipsum dolor sit amet, consectetur adipisng elit. Sed do
               eiusmod tempor incididunut labore et dolore magna aliqua.
             </p>
-            <button className="bg-[#6BA85D] text-white px-6 py-2 rounded hover:bg-[#5A9450] transition duration-300">
+            <Link to="/types#part2">
+            <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
               View More
             </button>
+            </Link>
           </div>
         </div>
 
@@ -61,7 +66,7 @@ const CardComponent = () => {
             alt="Card 3"
             className="w-full h-[340px] rounded-t"
           />
-          <div className="p-5">
+          <div className="pt-[21px] pl-[20px] pr-[23px]">
             <h3 className="text-xl font-semibold mb-1 text-[#393939]">
               Insects
             </h3>
@@ -69,7 +74,7 @@ const CardComponent = () => {
               Lorem ipsum dolor sit amet, consectetur adipisng elit. Sed do
               eiusmod tempor incididunut labore et dolore magna aliqua.
             </p>
-            <button className="bg-[#6BA85D] text-white px-6 py-2 rounded hover:bg-[#5A9450] transition duration-300">
+            <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
               View More
             </button>
           </div>
@@ -82,13 +87,13 @@ const CardComponent = () => {
             alt="Card 4"
             className="w-full h-[340px] rounded-t"
           />
-          <div className="p-5">
+          <div className="pt-[21px] pl-[20px] pr-[23px]">
             <h3 className="text-xl font-semibold mb-1 text-[#393939]">Weeds</h3>
             <p className="text-[#949191] mb-8">
               Lorem ipsum dolor sit amet, consectetur adipisng elit. Sed do
               eiusmod tempor incididunut labore et dolore magna aliqua.
             </p>
-            <button className="bg-[#6BA85D] text-white px-6 py-2 rounded hover:bg-[#5A9450] transition duration-300">
+            <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
               View More
             </button>
           </div>
@@ -101,7 +106,7 @@ const CardComponent = () => {
             alt="Card 5"
             className="w-full h-[340px] rounded-t"
           />
-          <div className="p-5">
+          <div className="pt-[21px] pl-[20px] pr-[23px]">
             <h3 className="text-xl font-semibold mb-1 text-[#393939]">
               Plants
             </h3>
@@ -109,7 +114,7 @@ const CardComponent = () => {
               Lorem ipsum dolor sit amet, consectetur adipisng elit. Sed do
               eiusmod tempor incididunut labore et dolore magna aliqua.
             </p>
-            <button className="bg-[#6BA85D] text-white px-6 py-2 rounded hover:bg-[#5A9450] transition duration-300">
+            <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
               View More
             </button>
           </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img1 from "/src/assets/Frame 1921.png"; // Replace with your image path
+import img1 from "/src/assets/Frame 1921 (6).png"; // Replace with your image path
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
-import rightTick from "/src/assets/circle-check-big.png"
+import rightTick from "/src/assets/circle-check-big.png";
 
 const TypesComponentPart1 = () => {
   const accordionData = [
@@ -87,25 +87,24 @@ const TypesComponentPart1 = () => {
   ];
 
   return (
-    <div className="container-fluid mt-24 mb-36">
-      <div className="row">
+    <div className="container py-5">
+      <div className="row justify-content-center">
         {/* Left Side Image */}
-        <div className="col-lg-6 d-flex justify-content-center align-items-start mb-4 mb-lg-0">
+        <div className="col-lg-6 px-5">
           <img
             src={img1}
             alt="Virus"
-            className="img-fluid rounded"
-            style={{ width: "607px", height: "870px", objectFit: "cover" }}
+            className="img-fluid rounded w-full h-full"
+            // style={{ width: "607px", height: "787px", objectFit: "cover" }}
           />
         </div>
-
         {/* Right Side Content */}
-        <div className="col-lg-6">
+        <div className="col-lg-6 px-5">
           {/* Heading */}
-          <h2 className="mb-3 text-[39px] font-semibold">Virus</h2>
+          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">Virus</h2>
 
           {/* Lorem Text */}
-          <p className="mb-4 text-[#9F9F9F] font-medium max-w-[585px] text-justify">
+          <p className="mb-4 text-[#9F9F9F] font-medium text-justify">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -113,7 +112,7 @@ const TypesComponentPart1 = () => {
           </p>
 
           {/* Accordion Section */}
-          <Accordion defaultActiveKey="0" className="max-w-[585px]">
+          <Accordion defaultActiveKey="0">
             {accordionData.map(({ id, title, content }) => (
               <Accordion.Item eventKey={id.toString()} key={id}>
                 <Accordion.Header className="text-[#393939] font-medium">
@@ -126,8 +125,8 @@ const TypesComponentPart1 = () => {
                   />
                   {title}
                 </Accordion.Header>
-                
-                <Accordion.Body className="text-[#9F9F9F] font-medium">
+
+                <Accordion.Body className="text-[#9F9F9F] text-base font-medium">
                   {content}
                 </Accordion.Body>
               </Accordion.Item>
