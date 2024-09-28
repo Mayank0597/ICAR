@@ -130,7 +130,7 @@ const TypesComponentPart2 = () => {
           <img
             src={img1}
             alt="Virus"
-            className="w-full h-full ps-5 rounded"
+            className="w-full h-[916px] ps-5 rounded"
           />
         </div>
       </div>

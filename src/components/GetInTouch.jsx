@@ -71,7 +71,7 @@ const GetInTouch = () => {
             {/* <label className="block text-white font-semibold mb-2">Name</label> */}
             <input
               type="text"
-              className="w-full py-3 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-white"
+              className="w-full py-2 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2"
               placeholder="Name"
             />
           </div>
@@ -81,7 +81,7 @@ const GetInTouch = () => {
             {/* <label className="block text-white font-semibold mb-2">Email</label> */}
             <input
               type="email"
-              className="w-full p-3 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-white"
+              className="w-full py-2 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2"
               placeholder="Email"
             />
           </div>
@@ -93,7 +93,7 @@ const GetInTouch = () => {
             </label> */}
             <input
               type="tel"
-              className="w-full p-3 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-white"
+              className="w-full py-2 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2"
               placeholder="Phone Number"
             />
           </div>
@@ -104,13 +104,13 @@ const GetInTouch = () => {
               Write a Message
             </label> */}
             <textarea
-              className="w-full py-5 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-white h-48 mb-12"
-              placeholder="Your Message"
+              className="w-full py-3 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2 h-48 mb-12"
+              placeholder="Write a Message"
             />
           </div>
 
           {/* Submit Button */}
-          <button className="w-full bg-[#C5E9C3] text-[#0F5A0A] py-3 px-8 rounded font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
+          <button className="w-full bg-[#0F5A0A] text-[#FFFFFF] py-2 px-8 rounded font-semibold border-2 border-transparent hover:text-[#0F5A0A] hover:bg-transparent hover:border-[#0F5A0A] transition duration-300">
             Submit
           </button>
         </div>

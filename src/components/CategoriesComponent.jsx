@@ -5,7 +5,7 @@ import img2 from "/src/assets/Frame 22 (1).png";
 
 const Categories = () => {
   return (
-    <div className="container mx-auto py-[90px] px-4 lg:px-16">
+    <div className="mx-auto py-[90px] px-[16px] lg:!px-16">
       {/* Heading */}
       <div className="mb-12">
         <h1 className="text-[39px] font-semibold text-left text-[#393939]">
@@ -14,9 +14,9 @@ const Categories = () => {
       </div>
 
       {/* Card 1 */}
-      <div className="flex flex-col lg:flex-row bg-[#ECF2E6] pl-8 pt-8 pb-8 pr-[86px] mb-16 rounded-lg">
+      <div className="flex flex-col lg:flex-row bg-[#ECF2E6] pl-8 pt-8 pb-8 pr-[86px] mb-16 rounded-lg gap-5">
         {/* Left Image */}
-        <div className="lg:w-1/2 mb-4 lg:mb-0 flex justify-start items-center">
+        <div className="lg:w-2/5 mb-[16px] lg:mb-0 flex justify-start items-center">
           <img
             src={LeftImage}
             alt="Pesticide Category"
@@ -24,11 +24,11 @@ const Categories = () => {
           />
         </div>
         {/* Right Content */}
-        <div className="lg:w-2/3">
+        <div className="lg:w-3/5">
           <h2 className="text-[33px] font-semibold mb-2 text-[#393939]">
             Insect
           </h2>
-          <p className="mb-11 text-[#949191] text-justify max-w-[667px]">
+          <p className="mb-11 text-[#949191] text-justify max-w-[740px]">
             Lorem ipsum dolor sit amet, consectetur adipisng elit. Sed do
             eiusmod tempor incididunut labore et dolore magna aliqua.Lorem ipsum
             dolor sit amet, consectetur adipisng elit. Sed do eiusmod tempor
@@ -79,9 +79,9 @@ const Categories = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="flex flex-col lg:flex-row-reverse bg-[#ECF2E6] pr-8 pt-8 pb-8 pl-9 rounded-lg">
+      <div className="flex flex-col lg:flex-row-reverse bg-[#ECF2E6] pr-8 pt-8 pb-8 pl-[37px] rounded-lg gap-5">
         {/* Right Image */}
-        <div className="lg:w-1/2 mb-4 lg:mb-0 flex justify-end items-center">
+        <div className="lg:w-2/5 mb-[16px] lg:mb-0 flex justify-end items-center">
           <img
             src={LeftImage}
             alt="Pesticide Category"
@@ -89,11 +89,11 @@ const Categories = () => {
           />
         </div>
         {/* Left Content */}
-        <div className="lg:w-2/3">
+        <div className="lg:w-3/5">
           <h2 className="text-[33px] font-semibold mb-2 text-[#393939]">
-            Herbicide
+          Diseases
           </h2>
-          <p className="mb-11 text-justify text-[#949191] max-w-[722px]">
+          <p className="mb-11 text-justify text-[#949191] max-w-[740px]">
             Lorem ipsum dolor sit amet, consectetur adipisng elit. Sed do
             eiusmod tempor incididunut labore et dolore magna aliqua.Lorem ipsum
             dolor sit amet, consectetur adipisng elit. Sed do eiusmod tempor
