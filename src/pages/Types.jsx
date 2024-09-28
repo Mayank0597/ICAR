@@ -20,16 +20,16 @@ const Types = () => {
     if (location.hash === "#part1") {
       part1Ref.current?.scrollIntoView({ behavior: "smooth" });
     }
-    if (location.hash === "#part2") {
+    else if (location.hash === "#part2") {
       part2Ref.current?.scrollIntoView({ behavior: "smooth" });
     }
-    if (location.hash === "#part3") {
+    else if (location.hash === "#part3") {
       part3Ref.current?.scrollIntoView({ behavior: "smooth" });
     }
-    if (location.hash === "#part4") {
+    else if (location.hash === "#part4") {
       part4Ref.current?.scrollIntoView({ behavior: "smooth" });
     }
-    if (location.hash === "#part5") {
+    else if (location.hash === "#part5") {
       part5Ref.current?.scrollIntoView({ behavior: "smooth" });
     }
   }, [location]);
