@@ -37,14 +37,14 @@ const AboutSection = () => {
         <img
           src={image2}
           alt="About Us Bottom"
-          className="w-[168px] h-[161px] absolute -top-0 left-6 md:left-20 z-10"
+          className="w-[168px] h-[161px] absolute -top-0 left-6 md:left-[90px] z-10"
         />
       </div>
       {/* Hologram Image - Positioned Bottom Left */}
       <img
         src={image3}
         alt="Hologram"
-        className="absolute -bottom-5 left-[60px] w-[240px] h-[163px]"
+        className="absolute -bottom-5 left-[60px] w-[240px] h-[140px]"
       />
     </div>
   );

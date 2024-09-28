@@ -18,7 +18,7 @@ const MissionSection = () => {
         <img
           src={image2}
           alt="About Us Bottom"
-          className="w-[168px] h-[161px] absolute -top-1 left-6 md:left-[450px] z-10"
+          className="w-[168px] h-[161px] absolute -top-1 left-6 md:left-[457px] z-10"
         />
       </div>
       {/* Right Side - Our Mission Text */}

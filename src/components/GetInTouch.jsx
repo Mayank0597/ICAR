@@ -65,7 +65,7 @@ const GetInTouch = () => {
 
       {/* Right Side - Contact Form */}
       <form className="">
-        <div className="bg-[#6BA85D] w-full md:w-[629px] h-auto md:h-[605px] p-8 md:py-[60px] md:pl-[54px] md:pr-[39px] md:mr-[47px] rounded-lg flex flex-col gap-4">
+        <div className="bg-[#6BA85D] w-full md:w-[629px] h-auto md:h-[605px] p-8 md:py-[60px] md:pl-[54px] md:pr-[39px] md:mr-[47px] rounded-lg flex flex-col gap-3">
           {/* Name */}
           <div>
             {/* <label className="block text-white font-semibold mb-2">Name</label> */}

@@ -33,3 +33,11 @@
   overflow-anchor: none;
   transition: var(--bs-accordion-transition); */
 }
+
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #6BA85D inset !important;
+  box-shadow: 0 0 0px 1000px #6BA85D inset !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+  text-fill-color: #FFFFFF !important;
+}
