@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "/src/assets/Frame 57.png"
+import backgroundImage from "/src/assets/Optimized image/Frame57-ezgif.com-png-to-webp-converter.webp"
 
 const WhyItMattersSection = () => {
   return (

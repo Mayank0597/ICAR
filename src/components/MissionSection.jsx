@@ -1,7 +1,7 @@
 import React from "react";
-import image1 from "/src/assets/Frame 19 (2).png";
+import image1 from "/src/assets/Optimized image/Frame192-ezgif.com-png-to-webp-converter.webp";
 import image2 from "/src/assets/ic_twotone-grass (2).png";
-import image3 from "/src/assets/ph_plant-fill (6).png"
+import image3 from "/src/assets/ph_plant-fill (6).png";
 
 const MissionSection = () => {
   return (

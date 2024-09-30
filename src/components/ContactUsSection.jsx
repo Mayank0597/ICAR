@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "/src/assets/Frame 42.png";
+import backgroundImage from "/src/assets/Optimized image/Frame42-ezgif.com-png-to-webp-converter.webp";
 import { useNavigate } from "react-router-dom";
 
 const ContactUsSection = () => {

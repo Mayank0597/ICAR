@@ -1,8 +1,8 @@
 import React from "react";
-import teamMember1 from "/src/assets/Frame 59.png";
-import teamMember2 from "/src/assets/Frame 59.png";
-import teamMember3 from "/src/assets/Frame 59.png";
-import teamMember4 from "/src/assets/Frame 59.png";
+import teamMember1 from "/src/assets/Optimized image/Frame59-ezgif.com-png-to-webp-converter.webp";
+import teamMember2 from "/src/assets/Optimized image/Frame59-ezgif.com-png-to-webp-converter.webp";
+import teamMember3 from "/src/assets/Optimized image/Frame59-ezgif.com-png-to-webp-converter.webp";
+import teamMember4 from "/src/assets/Optimized image/Frame59-ezgif.com-png-to-webp-converter.webp";
 import hologram1 from "/src/assets/ic_twotone-grass (3).png";
 import hologram2 from "/src/assets/ph_plant-fill (1).png";
 

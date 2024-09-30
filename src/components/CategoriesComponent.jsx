@@ -1,7 +1,7 @@
 import React from "react";
-import LeftImage from "/src/assets/Frame 20.png";
-import img1 from "/src/assets/Frame 22.png";
-import img2 from "/src/assets/Frame 22 (1).png";
+import LeftImage from "/src/assets/Optimized image/Frame20-ezgif.com-png-to-webp-converter.webp";
+import img1 from "/src/assets/Optimized image/Frame22-ezgif.com-png-to-webp-converter.webp";
+import img2 from "/src/assets/Optimized image/Frame221-ezgif.com-png-to-webp-converter.webp";
 
 const Categories = () => {
   return (
@@ -9,7 +9,7 @@ const Categories = () => {
       {/* Heading */}
       <div className="mb-12">
         <h1 className="text-[39px] font-semibold text-left text-[#393939]">
-          Categories of <span className="text-[#6BA85D]">Pesticide</span>
+          Categories of <span className="text-[#6BA85D]">Pest</span>
         </h1>
       </div>
 
@@ -91,7 +91,7 @@ const Categories = () => {
         {/* Left Content */}
         <div className="lg:w-3/5">
           <h2 className="text-[33px] font-semibold mb-2 text-[#393939]">
-          Diseases
+            Diseases
           </h2>
           <p className="mb-11 text-justify text-[#949191] max-w-[740px]">
             Lorem ipsum dolor sit amet, consectetur adipisng elit. Sed do
@@ -116,8 +116,8 @@ const Categories = () => {
             />
           </div>
           <p>Some additional information here.</p> */}
-           {/* Images with individual texts */}
-           <div className="flex space-x-14">
+          {/* Images with individual texts */}
+          <div className="flex space-x-14">
             {/* First Image and Text */}
             <div className="text-center">
               <img
@@ -140,7 +140,6 @@ const Categories = () => {
               {/* Text below img2 */}
             </div>
           </div>
-
         </div>
       </div>
     </div>

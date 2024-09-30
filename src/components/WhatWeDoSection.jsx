@@ -25,7 +25,7 @@ const WhatWeDoSection = () => {
             className="w-[84px] h-[84px] mb-10 mx-auto"
           />
           <h3 className="text-2xl font-semibold mb-4 text-center text-[#393939]">
-            Mapping Pesticide Shop Locations
+            Mapping Pest Shop Locations
           </h3>
           <p className="text-base font-medium text-center text-[#858585]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

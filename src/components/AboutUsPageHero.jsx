@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "/src/assets/Frame 5.png";
+import backgroundImage from "/src/assets/Optimized image/Frame5-ezgif.com-png-to-webp-converter.webp";
 
 const AboutUsPageHero = () => {
   return (

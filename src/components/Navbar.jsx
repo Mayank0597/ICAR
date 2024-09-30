@@ -119,11 +119,10 @@
 
 // export default Navbar;
 
-
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import LeftLogo from "/src/assets/ICARr_1 1 (3).png";
-import RightLogo from "/src/assets/nibsmm 1.png";
+import LeftLogo from "/src/assets/Optimized image/ICARr_113-ezgif.com-png-to-webp-converter.webp";
+import RightLogo from "/src/assets/Optimized image/ezgif.com-webp-maker.webp";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -192,11 +191,7 @@ const Navbar = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d={
-                  menuOpen
-                    ? "M6 18L18 6M6 6l12 12"
-                    : "M4 6h16M4 12h16m-7 6h7"
-                }
+                d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}
               />
             </svg>
           </button>
@@ -205,7 +200,9 @@ const Navbar = () => {
 
       {/* Second div: Links */}
       <div
-        className={`md:block ${menuOpen ? "block" : "hidden"} sticky top-0 z-[99999999999] transition-all duration-500 ${
+        className={`md:block ${
+          menuOpen ? "block" : "hidden"
+        } sticky top-0 z-[99999999999] transition-all duration-500 ${
           scrollPosition > 180 ? "bg-[#ECF2E6]" : "bg-white"
         }`}
       >

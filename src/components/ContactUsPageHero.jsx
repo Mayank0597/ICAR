@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "/src/assets/contact-us-hero-banner.png";
+import backgroundImage from "/src/assets/Optimized image/contact-us-hero-banner-ezgif.com-png-to-webp-converter.webp";
 
 const ContactUsPageHero = () => {
   return (

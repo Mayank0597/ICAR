@@ -1,9 +1,9 @@
 import React from "react";
-import image1 from "/src/assets/Frame 14.png";
-import image2 from "/src/assets/Frame 14 (1).png";
-import image3 from "/src/assets/Frame 14 (2).png";
-import image4 from "/src/assets/Frame 14 (3).png";
-import image5 from "/src/assets/Frame 14 (4).png";
+import image1 from "/src/assets/Optimized image/Frame14-ezgif.com-png-to-webp-converter.webp";
+import image2 from "/src/assets/Optimized image/Frame141-ezgif.com-png-to-webp-converter.webp";
+import image3 from "/src/assets/Optimized image/Frame142-ezgif.com-png-to-webp-converter.webp";
+import image4 from "/src/assets/Optimized image/Frame143-ezgif.com-png-to-webp-converter.webp";
+import image5 from "/src/assets/Optimized image/Frame144-ezgif.com-png-to-webp-converter.webp";
 import { Link } from "react-router-dom";
 
 const CardComponent = () => {
@@ -11,7 +11,7 @@ const CardComponent = () => {
     <div className="bg-[#ECF2E6] py-20 px-4 md:!px-[60px] relative">
       {/* Heading */}
       <h2 className="text-3xl md:text-[39px] font-semibold text-[#393939] mb-11">
-        Types of <span className="text-[#6BA85D]">Pesticide</span>
+        Types of <span className="text-[#6BA85D]">Pest</span>
       </h2>
       {/* Card Container */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

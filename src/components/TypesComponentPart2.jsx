@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img1 from "/src/assets/Frame 1921 (5).png"; // Replace with your image path
+import img1 from "/src/assets/Optimized image/Frame19215-ezgif.com-png-to-webp-converter.webp"; // Replace with your image path
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
 import rightTick from "/src/assets/circle-check-big.png";
 
