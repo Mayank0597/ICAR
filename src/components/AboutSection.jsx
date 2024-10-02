@@ -13,15 +13,8 @@ const AboutSection = () => {
           <span className="absolute -bottom-3 left-0 w-[55px] md:w-[112px] h-1 bg-[#6BA85D]"></span>
         </h2>
         <p className="text-[#9F9F9F] text-lg md:text-base font-medium leading-6 text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum. Curabitur
-          pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius,
-          turpis et commodo pharetra, est eros b
+        Biotic Stress Information System, an initiative by the ICAR - National Institute of Biotic Stress Management (NIBSM). Our platform addresses the growing challenges caused by invasive pests and their associated diseases in agriculture. As a part of the Indian Council of Agricultural Research (ICAR), NIBSM is committed to safeguarding the nation’s agriculture from biotic stress through innovative research, advanced technologies, and public awareness.
+
         </p>
       </div>
 

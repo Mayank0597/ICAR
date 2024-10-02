@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img1 from "/src/assets/Optimized image/Frame19216-ezgif.com-png-to-webp-converter.webp"; // Replace with your image path
+import img1 from "/src/assets/Picture2.png"; // Replace with your image path
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
 import rightTick from "/src/assets/circle-check-big.png";
 
@@ -8,82 +8,82 @@ const TypesComponentPart1 = () => {
   const accordionData = [
     {
       id: 1,
-      title: "Transmission Method",
+      title: "Native Range",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Found in Northern Africa, the Balkans, and western and central Asia.",
     },
     {
       id: 2,
-      title: "Host Range",
+      title: "Distribution",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Present in countries including Afghanistan, Algeria, Greece, Iran, Iraq, Kazakhstan, Romania, Turkey, and others.",
     },
     {
       id: 3,
-      title: "Symptoms",
+      title: "Threat Level",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "The major pest of bread and durum wheat, causes stunting, floret abortion, and kernel shrivelling, with yield losses of 50-90%.",
     },
     {
       id: 4,
-      title: "Incubation Period",
+      title: "Management Measures",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Commonly controlled using insecticides like deltamethrin, fenitrothion, trichlorfon, and lambda-cyhalothrin in Iran.",
     },
     {
       id: 5,
-      title: "Speed Rate",
+      title: "Estimated Yield Loss",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "This can cause significant losses, approximately 20-30% in barley and 50-90% in wheat during population surges.",
     },
-    {
-      id: 6,
-      title: "Reproduction Mechanism",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 7,
-      title: "Host Specificity",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 8,
-      title: "Impact on Crop Yield",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 9,
-      title: "Control Measures",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 10,
-      title: "Resistance",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 11,
-      title: "Environmental Impact",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 12,
-      title: "Economic Loss",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 13,
-      title: "Preventive Method",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
+    // {
+    //   id: 6,
+    //   title: "Reproduction Mechanism",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 7,
+    //   title: "Host Specificity",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 8,
+    //   title: "Impact on Crop Yield",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 9,
+    //   title: "Control Measures",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 10,
+    //   title: "Resistance",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 11,
+    //   title: "Environmental Impact",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 12,
+    //   title: "Economic Loss",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 13,
+    //   title: "Preventive Method",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
   ];
 
   return (
@@ -94,21 +94,23 @@ const TypesComponentPart1 = () => {
           <img
             src={img1}
             alt="Virus"
-            className="img-fluid rounded w-full h-[916px]"
+            className="img-fluid rounded w-full h-[500px]"
             // style={{ width: "607px", height: "787px", objectFit: "cover" }}
           />
         </div>
         {/* Right Side Content */}
         <div className="col-lg-6 px-5">
           {/* Heading */}
-          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">Virus</h2>
+          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
+          Sunn pest (Eurygaster Integriceps Puton)
+          </h2>
 
           {/* Lorem Text */}
           <p className="mb-4 text-[#9F9F9F] font-medium text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Sunn pests are known for their destructive feeding habits on wheat
+            and other cereal crops, leading to significant yield losses. They
+            damage plants by sucking sap, which can result in reduced grain
+            quality and quantity.
           </p>
 
           {/* Accordion Section */}

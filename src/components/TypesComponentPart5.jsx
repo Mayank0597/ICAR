@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img1 from "/src/assets/Optimized image/Frame19218-ezgif.com-png-to-webp-converter.webp"; // Replace with your image path
+import img1 from "/src/assets/Picture6.jpg"; // Replace with your image path
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
 import rightTick from "/src/assets/circle-check-big.png";
 
@@ -8,82 +8,82 @@ const TypesComponentPart5 = () => {
   const accordionData = [
     {
       id: 1,
-      title: "Transmission Method",
+      title: "Casual Organism",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Tomato brown rugose fruit virus (ToBRFV), an emerging tobamovirus first reported in 2014 in Israel and in 2015 in Jordan.",
     },
     {
       id: 2,
-      title: "Host Range",
+      title: "Distribution",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Found in numerous countries worldwide, including India (first reported in 2023), with a significant presence in Europe, the Americas, and Asia.",
     },
     {
       id: 3,
-      title: "Symptoms",
+      title: "Likely Threat",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "ToBRFV can overcome existing resistance genes in tomatoes, posing a high risk for widespread establishment in tomato and pepper crops.",
     },
     {
       id: 4,
-      title: "Incubation Period",
+      title: "Available Management Measures",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Prophylactic measures include strict sanitation practices, crop rotation, and reporting suspected infections to authorities for material destruction.",
     },
     {
       id: 5,
-      title: "Speed Rate",
+      title: "Estimated Yield Loss",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "The virus can infect nearly all plants in a crop, resulting in yield losses of 30-70% and reducing the marketability of infected fruits.",
     },
-    {
-      id: 6,
-      title: "Reproduction Mechanism",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 7,
-      title: "Host Specificity",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 8,
-      title: "Impact on Crop Yield",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 9,
-      title: "Control Measures",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 10,
-      title: "Resistance",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 11,
-      title: "Environmental Impact",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 12,
-      title: "Economic Loss",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      id: 13,
-      title: "Preventive Method",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
+    // {
+    //   id: 6,
+    //   title: "Reproduction Mechanism",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 7,
+    //   title: "Host Specificity",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 8,
+    //   title: "Impact on Crop Yield",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 9,
+    //   title: "Control Measures",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 10,
+    //   title: "Resistance",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 11,
+    //   title: "Environmental Impact",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 12,
+    //   title: "Economic Loss",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
+    // {
+    //   id: 13,
+    //   title: "Preventive Method",
+    //   content:
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // },
   ];
 
   return (
@@ -94,21 +94,23 @@ const TypesComponentPart5 = () => {
           <img
             src={img1}
             alt="Virus"
-            className="img-fluid rounded w-full h-[916px]"
+            className="img-fluid rounded w-full h-[500px]"
             // style={{ width: "607px", height: "787px", objectFit: "cover" }}
           />
         </div>
         {/* Right Side Content */}
         <div className="col-lg-6 px-5">
           {/* Heading */}
-          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">Plants</h2>
+          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
+            Tomato brown rugose fruit disease (ToBRFV)
+          </h2>
 
           {/* Lorem Text */}
           <p className="mb-4 text-[#9F9F9F] font-medium text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Tomato brown rugose fruit disease is caused by a virus that leads to
+            severe deformities in tomato fruits, resulting in significant
+            economic losses. The disease is spread through insect vectors and
+            contaminated tools.
           </p>
 
           {/* Accordion Section */}

@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "/src/assets/Optimized image/Frame57-ezgif.com-png-to-webp-converter.webp"
+import backgroundImage from "/src/assets/Optimized image/Frame57-ezgif.com-png-to-webp-converter.webp";
 
 const WhyItMattersSection = () => {
   return (
@@ -11,9 +11,18 @@ const WhyItMattersSection = () => {
     >
       {/* Content on Image */}
       <div className="absolute text-[#FFFFFF] w-2/3 text-justify">
-        <h2 className="text-3xl md:text-[39px] font-semibold mb-4">Why It Matters?</h2>
+        <h2 className="text-3xl md:text-[39px] font-semibold mb-4">
+          Why It Matters?
+        </h2>
         <p className="text-sm md:text-base font-medium leading-6 text-[#9F9F9F]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros .
+          The management of invasive pests and diseases is crucial for
+          protecting the nation’s agricultural productivity and food security.
+          Pests and pathogens can severely damage crops, leading to reduced
+          yields, economic losses, and threats to farmers' livelihoods.
+          Unchecked, they can spread rapidly, affecting not only local farms but
+          entire regions. By adopting effective pest management strategies, we
+          safeguard biodiversity, promote sustainable farming, and ensure a
+          stable food supply.
         </p>
       </div>
     </div>

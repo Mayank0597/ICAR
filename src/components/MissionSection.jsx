@@ -28,15 +28,13 @@ const MissionSection = () => {
           <span className="absolute -bottom-3 left-0 w-[55px] md:w-[65px] h-1 bg-[#6BA85D]"></span>
         </h2>
         <p className="text-[#9F9F9F] text-lg md:text-base font-medium leading-6 text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum. Curabitur
-          pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius,
-          turpis et commodo pharetra, est eros b
+          Our primary mission is to educate and inform farmers, researchers, and
+          agricultural stakeholders about the growing menace of invasive pests.
+          We focus on promoting sustainable management practices to minimize the
+          impact of these pests, ensuring better yields and healthier crops. By
+          offering access to cutting-edge research and real-time data, we
+          empower communities to take necessary measures in pest control and
+          disease prevention.
         </p>
       </div>
       {/* Hologram Image - Positioned Bottom Left */}

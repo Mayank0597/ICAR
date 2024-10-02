@@ -10,7 +10,7 @@ const WhatWeDoSection = () => {
       {/* Heading Section */}
       <div className="text-center mb-11">
         <h2 className="text-3xl md:text-[39px] font-semibold text-[#393939] relative inline-block">
-          What <span className='text-[#6BA85D]'>we do</span>?
+          What <span className="text-[#6BA85D]">we do</span>?
           <span className="absolute left-0 bottom-[-8px] w-16 md:w-24 h-1 bg-[#6BA85D]"></span>
         </h2>
       </div>
@@ -18,7 +18,7 @@ const WhatWeDoSection = () => {
       {/* Card Section */}
       <div className="flex flex-wrap justify-center gap-6">
         {/* Card 1 */}
-        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full md:w-[312px] md:h-[426px] rounded-lg flex flex-col items-center">
+        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full md:w-[312px] md:min-h-[426px] rounded-lg flex flex-col items-center">
           <img
             src={logo1}
             alt="Card Logo 1"
@@ -28,12 +28,14 @@ const WhatWeDoSection = () => {
             Mapping Pest Shop Locations
           </h3>
           <p className="text-base font-medium text-center text-[#858585]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            We provide a comprehensive map of pest control shops across various
+            regions, ensuring easy access to essential pest management tools and
+            products for farmers and agricultural professionals.
           </p>
         </div>
 
         {/* Card 2 */}
-        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full md:w-[312px] md:h-[426px] rounded-lg flex flex-col items-center">
+        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full md:w-[312px] md:min-h-[426px] rounded-lg flex flex-col items-center">
           <img
             src={logo2}
             alt="Card Logo 2"
@@ -43,12 +45,15 @@ const WhatWeDoSection = () => {
             Educational Resources
           </h3>
           <p className="text-base font-medium text-center text-[#858585]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Our platform offers a range of educational resources, including
+            articles, guides, and tutorials, to help users understand pest
+            behaviour, prevention techniques, and the latest research in pest
+            management.
           </p>
         </div>
 
         {/* Card 3 */}
-        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full md:w-[312px] md:h-[426px] rounded-lg flex flex-col items-center">
+        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full md:w-[312px] md:min-h-[426px] rounded-lg flex flex-col items-center">
           <img
             src={logo3}
             alt="Card Logo 3"
@@ -58,13 +63,14 @@ const WhatWeDoSection = () => {
             Public Awareness
           </h3>
           <p className="text-base font-medium text-center text-[#858585]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We actively promote public awareness of the importance of managing
+            invasive pests and diseases, encouraging communities to adopt
+            sustainable and effective pest control practices.
           </p>
         </div>
 
         {/* Card 4 */}
-        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full md:w-[312px] md:h-[426px] rounded-lg flex flex-col items-center">
+        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full md:w-[312px] md:min-h-[426px] rounded-lg flex flex-col items-center">
           <img
             src={logo4}
             alt="Card Logo 4"
@@ -74,8 +80,10 @@ const WhatWeDoSection = () => {
             Sustainable Pest Control
           </h3>
           <p className="text-base font-medium text-center text-[#858585]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            We advocate for sustainable pest control methods that minimize the
+            environmental impact while protecting crops. We aim to foster
+            long-term agricultural sustainability by focusing on eco-friendly
+            solutions.
           </p>
         </div>
       </div>

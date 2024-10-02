@@ -9,7 +9,7 @@ const Categories = () => {
       {/* Heading */}
       <div className="mb-12">
         <h1 className="text-[39px] font-semibold text-left text-[#393939]">
-          Categories of <span className="text-[#6BA85D]">Pest</span>
+          Categories of <span className="text-[#6BA85D]">Pests</span>
         </h1>
       </div>
 
@@ -29,14 +29,15 @@ const Categories = () => {
             Insect
           </h2>
           <p className="mb-11 text-[#949191] text-justify max-w-[740px]">
-            Lorem ipsum dolor sit amet, consectetur adipisng elit. Sed do
-            eiusmod tempor incididunut labore et dolore magna aliqua.Lorem ipsum
-            dolor sit amet, consectetur adipisng elit. Sed do eiusmod tempor
-            incididunut labore et dolore magna aliqua. Lorem ipsum dolor sit
-            amet, consectetur adipisng elit. Sed do eiusmod tempor incididunut
-            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-            consectetur adipisng elit. Sed do eiusmod tempor incididunut labore
-            et dolore magna aliqua
+            Insect pests are one of the most destructive biotic stressors in
+            agriculture. Their attacks result in significant yield losses and
+            degrade crop quality, leading to reduced market value and economic
+            losses for farmers. These pests damage plants by feeding on leaves,
+            stems, roots, and fruits, often transmitting diseases in the
+            process. To mitigate these effects, farmers must implement effective
+            pest management strategies, such as integrated pest management (IPM)
+            to safeguard crop health and ensure sustainable agricultural
+            productivity.
           </p>
           {/* <div className="flex mb-4">
             <img
@@ -94,14 +95,13 @@ const Categories = () => {
             Diseases
           </h2>
           <p className="mb-11 text-justify text-[#949191] max-w-[740px]">
-            Lorem ipsum dolor sit amet, consectetur adipisng elit. Sed do
-            eiusmod tempor incididunut labore et dolore magna aliqua.Lorem ipsum
-            dolor sit amet, consectetur adipisng elit. Sed do eiusmod tempor
-            incididunut labore et dolore magna aliqua. Lorem ipsum dolor sit
-            amet, consectetur adipisng elit. Sed do eiusmod tempor incididunut
-            labore et dolore magna aliqua.Lorem ipsum dolor sit amet,
-            consectetur adipisng elit. Sed do eiusmod tempor incididunut labore
-            et dolore magna aliqua
+            Plant diseases, often caused by pathogens like fungi, bacteria, and
+            viruses, can devastate crops by affecting their growth, yield, and
+            quality. Common diseases include Fungal diseases, bacterial diseases
+            and viral diseases. These diseases lead to significant agricultural
+            losses by stunting plant development, reducing productivity, and
+            spoiling the final produce. Fungal infections are common threats
+            that farmers face, each requiring targeted management strategies.
           </p>
           {/* <div className="flex mb-4">
             <img

@@ -1,7 +1,7 @@
 import React from "react";
 import image1 from "/src/assets/Optimized image/Frame191-ezgif.com-png-to-webp-converter.webp";
 import image2 from "/src/assets/ic_twotone-grass (1).png";
-import image3 from "/src/assets/ph_plant-fill (5).png"
+import image3 from "/src/assets/ph_plant-fill (5).png";
 
 const PreventionSection = () => {
   return (
@@ -29,23 +29,24 @@ const PreventionSection = () => {
         {/* Bullet Points */}
         <ul className="list-disc text-[#9F9F9F] text-lg md:text-base font-medium leading-6 text-justify max-w-[546px] pl-6">
           <li className="mb-3">
-            Lorem ipsum dolor sit amet, consectetur Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat.
+            Regularly monitor crops for early signs of pests and diseases to
+            enable timely intervention.
           </li>
           <li className="mb-3">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur adipiscing elit. Sed do.
+            Practice crop rotation and use pest-resistant plant varieties to
+            minimize pest buildup.
           </li>
           <li className="mb-3">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum eiusmod tempor
-            incididunt.
+            Maintain field hygiene by removing weeds and infected plant debris
+            to prevent the spread of pests.
+          </li>
+          <li className="mb-3">
+            Use Integrated Pest Management (IPM) strategies, such as biological
+            controls and pheromone traps, to reduce pest populations naturally.
           </li>
           <li>
-            Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam
-            varius turpis et commodo pharetra, est eros ut labore et dolore
-            magna aliqua..
+            Apply chemical treatments only when necessary, following recommended
+            guidelines.
           </li>
         </ul>
       </div>

@@ -23,7 +23,7 @@ const GetInTouch = () => {
           <div>
             <h3 className="text-2xl font-semibold text-[#6BA85D]">Address</h3>
             <p className="text-[#393939] text-[19px] font-medium">
-              Dhamtari Road, Abhanpur, Chhattisgarh
+              9RJG+564, Baronda, Chhattisgarh 493225
             </p>
           </div>
         </div>
@@ -40,7 +40,7 @@ const GetInTouch = () => {
               Phone
             </h3>
             <p className="text-[#393939] text-[19px] font-medium">
-              +91 97523-24111
+              077122 25352
             </p>
           </div>
         </div>
