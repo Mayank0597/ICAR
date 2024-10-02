@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "/src/assets/Optimized image/Frame19-ezgif.com-png-to-webp-converter.webp";
+import image1 from "/src/assets/Optimized image/Frame193-ezgif.com-png-to-webp-converter.webp";
 import image2 from "/src/assets/Optimized image/ic_twotone-grass1-ezgif.com-png-to-webp-converter.webp";
 import image3 from "/src/assets/Optimized image/ph_plant-fill4-ezgif.com-png-to-webp-converter.webp";
 
@@ -13,8 +13,13 @@ const AboutSection = () => {
           <span className="absolute -bottom-3 left-0 w-[55px] md:w-[112px] h-1 bg-[#6BA85D]"></span>
         </h2>
         <p className="text-[#9F9F9F] text-lg md:text-base font-medium leading-6 text-justify">
-        Biotic Stress Information System, an initiative by the ICAR - National Institute of Biotic Stress Management (NIBSM). Our platform addresses the growing challenges caused by invasive pests and their associated diseases in agriculture. As a part of the Indian Council of Agricultural Research (ICAR), NIBSM is committed to safeguarding the nation’s agriculture from biotic stress through innovative research, advanced technologies, and public awareness.
-
+          Biotic Stress Information System, an initiative by the ICAR - National
+          Institute of Biotic Stress Management (NIBSM). Our platform addresses
+          the growing challenges caused by invasive pests and their associated
+          diseases in agriculture. As a part of the Indian Council of
+          Agricultural Research (ICAR), NIBSM is committed to safeguarding the
+          nation’s agriculture from biotic stress through innovative research,
+          advanced technologies, and public awareness.
         </p>
       </div>
 
