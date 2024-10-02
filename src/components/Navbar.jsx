@@ -146,7 +146,7 @@ const Navbar = () => {
     <>
       <nav className="px-5 bg-white shadow-md">
         {/* First div: Logo and heading */}
-        <div className="mx-auto flex justify-between items-center py-4">
+        <div className="mx-auto flex justify-between items-center pt-2">
           {/* Left logo */}
           <div className="flex items-center">
             <img
@@ -161,7 +161,7 @@ const Navbar = () => {
             <h1 className="text-xl md:text-[39px] font-semibold text-[#000]">
               Biotic Stress Information System
             </h1>
-            <p className="text-xs md:text-[23px] font-normal text-center mt-[15px] text-[#000]">
+            <p className="text-xs md:text-[23px] font-normal text-center mt-[20px] text-[#000]">
               ICAR-National Institute of Biotic Stress Management
             </p>
           </div>
@@ -203,17 +203,17 @@ const Navbar = () => {
         className={`md:block ${
           menuOpen ? "block" : "hidden"
         } sticky top-0 z-[99999999999] transition-all duration-500 ${
-          scrollPosition > 180 ? "bg-[#ECF2E6]" : "bg-white"
+          scrollPosition > 180 ? "bg-[#ECF2E6] pt-3" : "bg-white"
         }`}
       >
-        <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-10 py-4">
+        <ul className="flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-10 pb-4">
           <li>
             <NavLink
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#000] font-medium border-b-4 border-[#6BA85D] pb-1"
-                  : "text-[#393939] font-medium pb-1"
+                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  : "text-[#737373] font-medium pb-1"
               }
             >
               Home
@@ -225,8 +225,8 @@ const Navbar = () => {
               to="/about"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#000] font-medium border-b-4 border-[#6BA85D] pb-1"
-                  : "text-[#393939] font-medium pb-1"
+                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  : "text-[#737373] font-medium pb-1"
               }
             >
               About Us
@@ -238,8 +238,8 @@ const Navbar = () => {
               to="/types"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#000] font-medium border-b-4 border-[#6BA85D] pb-1"
-                  : "text-[#393939] font-medium pb-1"
+                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  : "text-[#737373] font-medium pb-1"
               }
             >
               Types
@@ -251,8 +251,8 @@ const Navbar = () => {
               to="/contact"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#000] font-medium border-b-4 border-[#6BA85D] pb-1"
-                  : "text-[#393939] font-medium pb-1"
+                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  : "text-[#737373] font-medium pb-1"
               }
             >
               Contact Us

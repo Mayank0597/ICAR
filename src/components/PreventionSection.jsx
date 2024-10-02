@@ -9,7 +9,7 @@ const PreventionSection = () => {
       {/* Left Side - About Us Text */}
       <div className="w-full md:w-1/2 mb-8 md:mb-0 z-10">
         <h2 className="text-3xl md:text-[39px] font-semibold relative mb-8 text-[#393939]">
-          Prevention <span className="text-[#6BA85D]">Tips</span>
+          Prevention Tips
           <span className="absolute -bottom-3 left-0 w-[55px] md:w-[195px] h-1 bg-[#6BA85D]"></span>
         </h2>
         {/* <p className="text-[#9F9F9F] text-lg md:text-base font-medium leading-6 text-justify max-w-[546px]">

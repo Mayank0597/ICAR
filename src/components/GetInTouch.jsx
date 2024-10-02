@@ -57,7 +57,7 @@ const GetInTouch = () => {
               Email
             </h3>
             <p className="text-[#393939] text-[19px] font-medium">
-              hello@houseofbastar.com
+              demo@gmail.com
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@ const GetInTouch = () => {
             {/* <label className="block text-white font-semibold mb-2">Name</label> */}
             <input
               type="text"
-              className="w-full py-2 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2"
+              className="w-full py-2 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border-2 border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2"
               placeholder="Name"
             />
           </div>
@@ -81,7 +81,7 @@ const GetInTouch = () => {
             {/* <label className="block text-white font-semibold mb-2">Email</label> */}
             <input
               type="email"
-              className="w-full py-2 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2"
+              className="w-full py-2 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border-2 border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2"
               placeholder="Email"
             />
           </div>
@@ -93,7 +93,7 @@ const GetInTouch = () => {
             </label> */}
             <input
               type="tel"
-              className="w-full py-2 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2"
+              className="w-full py-2 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border-2 border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2"
               placeholder="Phone Number"
             />
           </div>
@@ -104,7 +104,7 @@ const GetInTouch = () => {
               Write a Message
             </label> */}
             <textarea
-              className="w-full py-3 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2 h-48 mb-12"
+              className="w-full py-3 px-6 rounded-lg bg-[#6BA85D] text-[#FFFFFF] border-2 border-[#C9C9C9] placeholder:text-[#ECECEC] focus:outline-none focus:!border-[#FFFFFF] focus:!border-2 h-48 mb-12"
               placeholder="Write a Message"
             />
           </div>

@@ -90,16 +90,17 @@ const TypesComponentPart1 = () => {
     <div className="container py-5">
       <div className="row justify-content-center">
         {/* Left Side Image */}
-        <div className="col-lg-6 px-5">
+        <div className="col-lg-5">
           <img
             src={img1}
             alt="Virus"
-            className="img-fluid rounded w-full h-[500px]"
+            className="rounded w-full h-[500px]"
             // style={{ width: "607px", height: "787px", objectFit: "cover" }}
           />
         </div>
+        <div className="col-lg-1"></div>
         {/* Right Side Content */}
-        <div className="col-lg-6 px-5">
+        <div className="col-lg-5">
           {/* Heading */}
           <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
           Sunn pest (Eurygaster Integriceps Puton)

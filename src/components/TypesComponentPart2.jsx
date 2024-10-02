@@ -9,8 +9,7 @@ const TypesComponentPart2 = () => {
     {
       id: 1,
       title: "Casual Organism",
-      content:
-        "Spodoptera littoralis (Boisduval).",
+      content: "Spodoptera littoralis (Boisduval).",
     },
     {
       id: 2,
@@ -87,10 +86,10 @@ const TypesComponentPart2 = () => {
   ];
 
   return (
-    <div className="container p-5">
-      <div className="row">
+    <div className="container py-5">
+      <div className="row justify-content-center">
         {/* Left Side Content */}
-        <div className="col-lg-6 pe-5">
+        <div className="col-lg-5">
           {/* Heading */}
           <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
             African cotton leafworm (Spodoptera Littoralis)
@@ -126,14 +125,10 @@ const TypesComponentPart2 = () => {
             ))}
           </Accordion>
         </div>
-
+        <div className="col-lg-1"></div>
         {/* Right Side Image */}
-        <div className="col-lg-6">
-          <img
-            src={img1}
-            alt="Virus"
-            className="w-full h-[500px] ps-5 rounded"
-          />
+        <div className="col-lg-5">
+          <img src={img1} alt="Virus" className="w-full h-[500px] rounded" />
         </div>
       </div>
     </div>

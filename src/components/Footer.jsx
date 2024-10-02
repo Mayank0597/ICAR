@@ -65,23 +65,23 @@ const Footer = () => {
           <h3 className="text-[19px] font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-3">
             <li>
-              <Link to="/" className="text-[#BBBBBB]">
+              <Link to="/" className="text-[#BBBBBB] hover:text-[#FFF]">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="text-[#BBBBBB]">
+              <Link to="/about" className="text-[#BBBBBB] hover:text-[#FFF]">
                 About Us
               </Link>
             </li>
             <li>
-              <Link to="/types" className="text-[#BBBBBB]">
+              <Link to="/types" className="text-[#BBBBBB] hover:text-[#FFF]">
                 Types
               </Link>
             </li>
             
             <li>
-              <Link to="/contact" className="text-[#BBBBBB]">
+              <Link to="/contact" className="text-[#BBBBBB] hover:text-[#FFF]">
                 Contact Us
               </Link>
             </li>
@@ -93,12 +93,12 @@ const Footer = () => {
           <h3 className="text-[19px] font-semibold mb-4">Legal</h3>
           <ul className="space-y-3">
             <li>
-              <Link to="/terms" className="text-[#BBBBBB]">
+              <Link to="/terms" className="text-[#BBBBBB] hover:text-[#FFF]">
                 Terms of Use
               </Link>
             </li>
             <li>
-              <Link to="/privacy" className="text-[#BBBBBB]">
+              <Link to="/privacy" className="text-[#BBBBBB] hover:text-[#FFF]">
                 Privacy Policy
               </Link>
             </li>

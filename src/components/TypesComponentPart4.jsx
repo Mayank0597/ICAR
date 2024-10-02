@@ -9,8 +9,7 @@ const TypesComponentPart4 = () => {
     {
       id: 1,
       title: "Casual Organism",
-      content:
-        "Magnaporthe oryzae pathotype Triticum.",
+      content: "Magnaporthe oryzae pathotype Triticum.",
     },
     {
       id: 2,
@@ -87,18 +86,21 @@ const TypesComponentPart4 = () => {
   ];
 
   return (
-    <div className="container p-5">
-      <div className="row">
+    <div className="container py-5">
+      <div className="row justify-content-center">
         {/* Left Side Content */}
-        <div className="col-lg-6 pe-5">
+        <div className="col-lg-5">
           {/* Heading */}
-          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">Wheat Blast (Magnaporthe oryzae pathotype Triticum)
+          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
+            Wheat Blast (Magnaporthe oryzae pathotype Triticum)
           </h2>
 
           {/* Lorem Text */}
           <p className="mb-4 text-[#9F9F9F] font-medium text-justify">
-          Wheat blast is a devastating fungal disease that affects wheat crops, leading to severe yield reductions and compromised grain quality. The disease spreads rapidly under favourable conditions, making early detection and management essential.
-
+            Wheat blast is a devastating fungal disease that affects wheat
+            crops, leading to severe yield reductions and compromised grain
+            quality. The disease spreads rapidly under favourable conditions,
+            making early detection and management essential.
           </p>
 
           {/* Accordion Section */}
@@ -124,13 +126,10 @@ const TypesComponentPart4 = () => {
           </Accordion>
         </div>
 
+        <div className="col-lg-1"></div>
         {/* Right Side Image */}
-        <div className="col-lg-6">
-          <img
-            src={img1}
-            alt="Virus"
-            className="w-full h-[500px] ps-5 rounded"
-          />
+        <div className="col-lg-5">
+          <img src={img1} alt="Virus" className="w-full h-[500px] rounded" />
         </div>
       </div>
     </div>

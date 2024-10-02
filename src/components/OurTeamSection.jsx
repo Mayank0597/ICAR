@@ -21,16 +21,16 @@ const OurTeamSection = () => {
         className="absolute bottom-0 left-0 w-[120px] md:w-[200px] z-10"
       />
 
-      <div className="px-5 py-16">
+      <div className="px-6 md:px-20 py-16">
         {/* Section Heading */}
-        <h2 className="text-3xl md:text-[39px] font-semibold text-start mb-12 relative z-20 text-[#393939]">
-          Our <span className="text-[#6BA85D]">Team</span>
+        <h2 className="text-3xl md:text-[39px] font-semibold mb-12 relative z-20 text-[#393939]">
+          Our Team
         </h2>
 
         {/* Team Cards */}
-        <div className="flex flex-wrap gap-4 items-center relative z-20">
+        <div className="flex flex-wrap items-center justify-between relative z-20">
           {/* Team Member 1 */}
-          <div className="bg-[#ECF2E6] text-white w-full md:w-[312px] md:h-[357px] rounded-lg px-[13px] pt-[13px] pb-[40px] mb-6">
+          <div className="bg-[#ECF2E6] text-white rounded-lg px-[13px] pt-[13px] pb-[40px] mb-3 w-full md:w-[24%] sm:w-[49%]">
             <img
               src={teamMember1}
               alt="Team Member 1"
@@ -45,7 +45,7 @@ const OurTeamSection = () => {
           </div>
 
           {/* Team Member 2 */}
-          <div className="bg-[#ECF2E6] text-white w-full md:w-[312px] md:h-[357px] rounded-lg px-[13px] pt-[13px] pb-[40px] mb-6">
+          <div className="bg-[#ECF2E6] text-white w-full md:w-[24%] sm:w-[49%] rounded-lg px-[13px] pt-[13px] pb-[40px] mb-3">
             <img
               src={teamMember2}
               alt="Team Member 2"
@@ -60,7 +60,7 @@ const OurTeamSection = () => {
           </div>
 
           {/* Team Member 3 */}
-          <div className="bg-[#ECF2E6] text-white w-full md:w-[312px] md:h-[357px] rounded-lg px-[13px] pt-[13px] pb-[40px] mb-6">
+          <div className="bg-[#ECF2E6] text-white w-full md:w-[24%] sm:w-[49%] rounded-lg px-[13px] pt-[13px] pb-[40px] mb-3">
             <img
               src={teamMember3}
               alt="Team Member 3"
@@ -75,7 +75,7 @@ const OurTeamSection = () => {
           </div>
 
           {/* Team Member 4 */}
-          <div className="bg-[#ECF2E6] text-white w-full md:w-[312px] md:h-[357px] rounded-lg px-[13px] pt-[13px] pb-[40px] mb-6 ">
+          <div className="bg-[#ECF2E6] text-white w-full md:w-[24%] sm:w-[49%] rounded-lg px-[13px] pt-[13px] pb-[40px] mb-3">
             <img
               src={teamMember4}
               alt="Team Member 4"

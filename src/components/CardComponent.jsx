@@ -1,9 +1,9 @@
 import React from "react";
-import image1 from "/src/assets/Picture2.png";
-import image2 from "/src/assets/Picture3.jpg";
-import image3 from "/src/assets/Picture4.jpg";
-import image4 from "/src/assets/Picture5.jpg";
-import image5 from "/src/assets/Picture6.jpg";
+import image1 from "/src/assets/Optimized image/Frame145-ezgif.com-png-to-webp-converter.webp";
+import image2 from "/src/assets/Optimized image/Frame146-ezgif.com-png-to-webp-converter.webp";
+import image3 from "/src/assets/Optimized image/Frame147-ezgif.com-png-to-webp-converter.webp";
+import image4 from "/src/assets/Optimized image/Frame148-ezgif.com-png-to-webp-converter.webp";
+import image5 from "/src/assets/Optimized image/Frame149-ezgif.com-png-to-webp-converter.webp";
 import { Link } from "react-router-dom";
 
 const CardComponent = () => {
@@ -11,7 +11,7 @@ const CardComponent = () => {
     <div className="bg-[#ECF2E6] py-20 px-4 md:!px-[60px] relative">
       {/* Heading */}
       <h2 className="text-3xl md:text-[39px] font-semibold text-[#393939] mb-11">
-        Types of <span className="text-[#6BA85D]">Pests</span>
+        Types of Pests
       </h2>
       {/* Card Container */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -33,7 +33,7 @@ const CardComponent = () => {
               quality and quantity.
             </p>
             <Link to="/types#part1">
-              <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
+              <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 mt-4 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
                 View More
               </button>
             </Link>
@@ -83,7 +83,7 @@ const CardComponent = () => {
               impacting overall crop yield.
             </p>
             <Link to="/types#part3">
-              <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
+              <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 mt-4 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
                 View More
               </button>
             </Link>
@@ -133,7 +133,7 @@ const CardComponent = () => {
               contaminated tools.
             </p>
             <Link to="/types#part5">
-              <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
+              <button className="bg-[#6BA85D] text-[#FFF] px-6 py-2 mt-4 rounded border-2 border-transparent hover:text-[#6BA85D] hover:bg-transparent hover:border-[#6BA85D] transition duration-300">
                 View More
               </button>
             </Link>
