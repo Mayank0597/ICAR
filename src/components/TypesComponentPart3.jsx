@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img1 from "/src/assets/Picture4.jpg"; // Replace with your image path
+import img1 from "/src/assets/Optimized image/Frame192112-ezgif.com-png-to-webp-converter.webp"; // Replace with your image path
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
 import rightTick from "/src/assets/circle-check-big.png";
 
@@ -94,7 +94,7 @@ const TypesComponentPart3 = () => {
           <img
             src={img1}
             alt="Virus"
-            className="img-fluid rounded w-full h-[500px]"
+            className="img-fluid rounded w-full h-[600px]"
             // style={{ width: "607px", height: "787px", objectFit: "cover" }}
           />
         </div>

@@ -1,7 +1,11 @@
 import React from "react";
-import LeftImage from "/src/assets/Optimized image/Frame20-ezgif.com-png-to-webp-converter.webp";
-import img1 from "/src/assets/Optimized image/Frame22-ezgif.com-png-to-webp-converter.webp";
-import img2 from "/src/assets/Optimized image/Frame221-ezgif.com-png-to-webp-converter.webp";
+import LeftImage from "/src/assets/Optimized image/Frame201-ezgif.com-png-to-webp-converter.webp";
+import RightImage from "/src/assets/Optimized image/Frame202-ezgif.com-png-to-webp-converter (1).webp";
+import img1 from "/src/assets/Optimized image/Frame222-ezgif.com-png-to-webp-converter.webp";
+import img2 from "/src/assets/Optimized image/Frame223-ezgif.com-png-to-webp-converter.webp";
+import img3 from "/src/assets/Optimized image/Frame224-ezgif.com-png-to-webp-converter.webp";
+import img4 from "/src/assets/Optimized image/Frame225-ezgif.com-png-to-webp-converter.webp";
+import img5 from "/src/assets/Optimized image/Frame226-ezgif.com-png-to-webp-converter.webp";
 
 const Categories = () => {
   return (
@@ -61,7 +65,7 @@ const Categories = () => {
                 alt="Pesticide Detail"
                 className="w-[92px] h-[77px] rounded mb-2"
               />
-              <p className="text-[#393939]">Sunn Pest</p>{" "}
+              <p className="text-[#000] text-[16px] font-normal text-left">Sunn Pest</p>{" "}
               {/* Text below img1 */}
             </div>
 
@@ -72,7 +76,20 @@ const Categories = () => {
                 alt="Pesticide Detail"
                 className="w-[92px] h-[77px] rounded mb-2"
               />
-              <p className="text-[#393939]">African Cotton Leaform</p>{" "}
+              <p className="text-[#000] text-[16px] font-normal text-left">Rape Beetle</p>{" "}
+              {/* Text below img2 */}
+            </div>
+
+            {/* Third Image and Text */}
+            <div className="text-center">
+              <img
+                src={img3}
+                alt="Pesticide Detail"
+                className="w-[92px] h-[77px] rounded mb-2"
+              />
+              <p className="text-[#000] text-[16px] font-normal text-left">
+                African Cotton Leaform
+              </p>{" "}
               {/* Text below img2 */}
             </div>
           </div>
@@ -84,7 +101,7 @@ const Categories = () => {
         {/* Right Image */}
         <div className="lg:w-2/5 mb-[16px] lg:mb-0 flex justify-end items-center">
           <img
-            src={LeftImage}
+            src={RightImage}
             alt="Pesticide Category"
             className="w-[444px] h-[391px]"
           />
@@ -121,22 +138,24 @@ const Categories = () => {
             {/* First Image and Text */}
             <div className="text-center">
               <img
-                src={img1}
+                src={img4}
                 alt="Pesticide Detail"
                 className="w-[92px] h-[77px] rounded mb-2"
               />
-              <p className="text-[#393939]">Sunn Pest</p>{" "}
+              <p className="text-[#000] text-[16px] font-normal text-left">Wheat Blast</p>{" "}
               {/* Text below img1 */}
             </div>
 
             {/* Second Image and Text */}
             <div className="text-center">
               <img
-                src={img2}
+                src={img5}
                 alt="Pesticide Detail"
                 className="w-[92px] h-[77px] rounded mb-2"
               />
-              <p className="text-[#393939]">African Cotton Leaform</p>{" "}
+              <p className="text-[#000] text-[16px] font-normal max-w-44 text-left">
+                Tomato Brown Rugose Fruit Disease
+              </p>{" "}
               {/* Text below img2 */}
             </div>
           </div>

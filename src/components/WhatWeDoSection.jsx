@@ -10,7 +10,7 @@ const WhatWeDoSection = () => {
       {/* Heading Section */}
       <div className="text-center mb-11">
         <h2 className="text-3xl md:text-[39px] font-semibold text-[#393939] relative inline-block">
-          What we do?
+          What <span className="text-[#6BA85D]">we do?</span> 
           <span className="absolute left-0 bottom-[-8px] w-16 md:w-24 h-1 bg-[#6BA85D]"></span>
         </h2>
       </div>
@@ -18,7 +18,7 @@ const WhatWeDoSection = () => {
       {/* Card Section */}
       <div className="flex flex-wrap justify-between">
         {/* Card 1 */}
-        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full sm:w-[49%] md:w-[24%] md:min-h-[426px] mb-3 rounded-lg flex flex-col items-center">
+        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full sm:w-[49%] md:w-[24%] md:min-h-[426px] mb-3 rounded-lg flex flex-col items-center hover:shadow-lg">
           <img
             src={logo1}
             alt="Card Logo 1"
@@ -35,7 +35,7 @@ const WhatWeDoSection = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full sm:w-[49%] md:w-[24%] md:min-h-[426px] mb-3 rounded-lg flex flex-col items-center">
+        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full sm:w-[49%] md:w-[24%] md:min-h-[426px] mb-3 rounded-lg flex flex-col items-center hover:shadow-lg">
           <img
             src={logo2}
             alt="Card Logo 2"
@@ -53,7 +53,7 @@ const WhatWeDoSection = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full sm:w-[49%] md:w-[24%] md:min-h-[426px] mb-3 rounded-lg flex flex-col items-center">
+        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full sm:w-[49%] md:w-[24%] md:min-h-[426px] mb-3 rounded-lg flex flex-col items-center hover:shadow-lg">
           <img
             src={logo3}
             alt="Card Logo 3"
@@ -70,7 +70,7 @@ const WhatWeDoSection = () => {
         </div>
 
         {/* Card 4 */}
-        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full sm:w-[49%] md:w-[24%] md:min-h-[426px] mb-3 rounded-lg flex flex-col items-center">
+        <div className="bg-[#ECF2E6] text-white py-14 px-9 w-full sm:w-[49%] md:w-[24%] md:min-h-[426px] mb-3 rounded-lg flex flex-col items-center hover:shadow-lg">
           <img
             src={logo4}
             alt="Card Logo 4"

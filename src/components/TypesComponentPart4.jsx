@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import img1 from "/src/assets/Picture5.jpg"; // Replace with your image path
+import img1 from "/src/assets/Optimized image/Frame192113-ezgif.com-png-to-webp-converter.webp"; // Replace with your image path
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
 import rightTick from "/src/assets/circle-check-big.png";
 
@@ -129,7 +129,7 @@ const TypesComponentPart4 = () => {
         <div className="col-lg-1"></div>
         {/* Right Side Image */}
         <div className="col-lg-5">
-          <img src={img1} alt="Virus" className="w-full h-[500px] rounded" />
+          <img src={img1} alt="Virus" className="w-full h-[600px] rounded" />
         </div>
       </div>
     </div>

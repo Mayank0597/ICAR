@@ -1,6 +1,6 @@
 import React from "react";
-import image1 from "/src/assets/Optimized image/Frame191-ezgif.com-png-to-webp-converter.webp";
-import image2 from "/src/assets/ic_twotone-grass (1).png";
+import image1 from "/src/assets/Optimized image/Frame194-ezgif.com-png-to-webp-converter.webp";
+import image2 from "/src/assets/ic_twotone-grass (5).png";
 import image3 from "/src/assets/ph_plant-fill (5).png";
 
 const PreventionSection = () => {
@@ -9,7 +9,7 @@ const PreventionSection = () => {
       {/* Left Side - About Us Text */}
       <div className="w-full md:w-1/2 mb-8 md:mb-0 z-10">
         <h2 className="text-3xl md:text-[39px] font-semibold relative mb-8 text-[#393939]">
-          Prevention Tips
+          Prevention <span className="text-[#6BA85D]">Tips</span> 
           <span className="absolute -bottom-3 left-0 w-[55px] md:w-[195px] h-1 bg-[#6BA85D]"></span>
         </h2>
         {/* <p className="text-[#9F9F9F] text-lg md:text-base font-medium leading-6 text-justify max-w-[546px]">
@@ -63,7 +63,7 @@ const PreventionSection = () => {
         <img
           src={image2}
           alt="Prevention Bottom"
-          className="w-[168px] h-[161px] absolute -top-1 left-6 md:-left-5 z-10"
+          className="w-[199px] h-[167px] absolute -top-5 left-6 md:-left-2 z-10"
         />
       </div>
       {/* Hologram Image - Positioned Bottom Left */}

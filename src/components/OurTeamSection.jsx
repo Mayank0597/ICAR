@@ -24,7 +24,7 @@ const OurTeamSection = () => {
       <div className="px-6 md:px-20 py-16">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-[39px] font-semibold mb-12 relative z-20 text-[#393939]">
-          Our Team
+          Our <span className="text-[#6BA85D]">Team</span> 
         </h2>
 
         {/* Team Cards */}
