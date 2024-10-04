@@ -103,7 +103,7 @@ const TypesComponentPart3 = () => {
         <div className="col-lg-5">
           {/* Heading */}
           <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
-            Rape beetle (Meligethes aeneus)
+            Rape Beetle (Meligethes Aeneus)
           </h2>
 
           {/* Lorem Text */}

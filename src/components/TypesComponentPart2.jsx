@@ -92,7 +92,7 @@ const TypesComponentPart2 = () => {
         <div className="col-lg-5">
           {/* Heading */}
           <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
-            African cotton leafworm (Spodoptera Littoralis)
+            African Cotton Leafworm (Spodoptera Littoralis)
           </h2>
 
           {/* Lorem Text */}

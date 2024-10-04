@@ -103,7 +103,7 @@ const TypesComponentPart1 = () => {
         <div className="col-lg-5">
           {/* Heading */}
           <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
-          Sunn pest (Eurygaster Integriceps Puton)
+          Sunn Pest (Eurygaster Integriceps Puton)
           </h2>
 
           {/* Lorem Text */}

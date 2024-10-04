@@ -103,7 +103,7 @@ const TypesComponentPart5 = () => {
         <div className="col-lg-5">
           {/* Heading */}
           <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
-            Tomato brown rugose fruit disease (ToBRFV)
+            Tomato Brown Rugose Fruit Disease (ToBRFV)
           </h2>
 
           {/* Lorem Text */}

@@ -92,7 +92,7 @@ const TypesComponentPart4 = () => {
         <div className="col-lg-5">
           {/* Heading */}
           <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
-            Wheat Blast (Magnaporthe oryzae pathotype Triticum)
+            Wheat Blast (Magnaporthe Oryzae Pathotype Triticum)
           </h2>
 
           {/* Lorem Text */}

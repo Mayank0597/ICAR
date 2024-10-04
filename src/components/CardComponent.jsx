@@ -163,7 +163,7 @@ const CardComponent = () => {
             <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
                 <h5 className="text-[#000] font-semibold text-[19px]">
-                  Sunn pest (Eurygaster Integriceps Puton)
+                  Sunn Pest (Eurygaster Integriceps Puton)
                 </h5>
                 <p className="text-[#949191] font-normal text-[16px]">
                   Sunn pests are known for their destructive feeding habits on
@@ -189,7 +189,7 @@ const CardComponent = () => {
             <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
                 <h5 className="text-[#000] font-semibold text-[19px]">
-                  African cotton leafworm (Spodoptera Littoralis)
+                  African Cotton Leafworm (Spodoptera Littoralis)
                 </h5>
                 <p className="text-[#949191] font-normal text-[16px]">
                   The African cotton leafworm is a major pest of cotton and
@@ -215,7 +215,7 @@ const CardComponent = () => {
             <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
                 <h5 className="text-[#000] font-semibold text-[19px]">
-                  Rape beetle (Meligethes aeneus)
+                  Rape Beetle (Meligethes Aeneus)
                 </h5>
                 <p className="text-[#949191] font-normal text-[16px]">
                   Rape beetles are particularly harmful to canola and rapeseed
@@ -241,7 +241,7 @@ const CardComponent = () => {
             <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
                 <h5 className="text-[#000] font-semibold text-[19px]">
-                  Wheat Blast (Magnaporthe oryzae pathotype Triticum)
+                  Wheat Blast (Magnaporthe Oryzae Pathotype Triticum)
                 </h5>
                 <p className="text-[#949191] font-normal text-[16px]">
                   Wheat blast is a devastating fungal disease that affects wheat
@@ -267,7 +267,7 @@ const CardComponent = () => {
             <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
                 <h5 className="text-[#000] font-semibold text-[19px]">
-                  Tomato brown rugose fruit disease (ToBRFV)
+                  Tomato Brown Rugose Fruit Disease (ToBRFV)
                 </h5>
                 <p className="text-[#949191] font-normal text-[16px]">
                   Tomato brown rugose fruit disease is caused by a virus that
