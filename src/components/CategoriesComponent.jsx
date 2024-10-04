@@ -30,7 +30,7 @@ const Categories = () => {
         {/* Right Content */}
         <div className="lg:w-3/5">
           <h2 className="text-[33px] font-semibold mb-2 text-[#393939]">
-            Insect
+            Insects
           </h2>
           <p className="mb-11 text-[#949191] text-justify max-w-[740px]">
             Insect pests are one of the most destructive biotic stressors in

@@ -160,7 +160,7 @@ const CardComponent = () => {
         <div className="flex flex-wrap gap-3">
           <div className="w-[32%] flex flex-col">
             <img src={image1} className="rounded-t-md" alt="" />
-            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px]">
+            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
                 <h5 className="text-[#000] font-semibold text-[19px]">
                   Sunn pest (Eurygaster Integriceps Puton)
@@ -186,7 +186,7 @@ const CardComponent = () => {
           </div>
           <div className="w-[32%] flex flex-col">
             <img src={image2} className="rounded-t-md" alt="" />
-            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px]">
+            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
                 <h5 className="text-[#000] font-semibold text-[19px]">
                   African cotton leafworm (Spodoptera Littoralis)
@@ -212,7 +212,7 @@ const CardComponent = () => {
           </div>
           <div className="w-[32%] flex flex-col">
             <img src={image3} className="rounded-t-md" alt="" />
-            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px]">
+            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
                 <h5 className="text-[#000] font-semibold text-[19px]">
                   Rape beetle (Meligethes aeneus)
@@ -238,7 +238,7 @@ const CardComponent = () => {
           </div>
           <div className="w-[32%] flex flex-col">
             <img src={image4} className="rounded-t-md" alt="" />
-            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px]">
+            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
                 <h5 className="text-[#000] font-semibold text-[19px]">
                   Wheat Blast (Magnaporthe oryzae pathotype Triticum)
@@ -264,7 +264,7 @@ const CardComponent = () => {
           </div>
           <div className="w-[32%] flex flex-col">
             <img src={image5} className="rounded-t-md" alt="" />
-            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px]">
+            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
                 <h5 className="text-[#000] font-semibold text-[19px]">
                   Tomato brown rugose fruit disease (ToBRFV)
