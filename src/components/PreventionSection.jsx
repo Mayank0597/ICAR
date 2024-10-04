@@ -57,7 +57,7 @@ const PreventionSection = () => {
         <img
           src={image1}
           alt="Prevention Top"
-          className="w-[560px] h-[550px] rounded relative z-20"
+          className="w-[560px] h-auto rounded relative z-20"
         />
         {/* Bottom Image */}
         <img
