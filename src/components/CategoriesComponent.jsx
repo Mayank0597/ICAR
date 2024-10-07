@@ -9,22 +9,22 @@ import img5 from "/src/assets/Optimized image/Frame226-ezgif.com-png-to-webp-con
 
 const Categories = () => {
   return (
-    <div className="mx-auto py-[90px] px-[16px] lg:!px-16">
+    <div className="mx-auto md:py-[90px] py-[59px] px-[30px] md:!px-16">
       {/* Heading */}
-      <div className="mb-12">
+      <div className="md:mb-12 mb-[30px]">
         <h1 className="text-[39px] font-semibold text-left text-[#393939]">
           Categories of <span className="text-[#6BA85D]">Pests</span>
         </h1>
       </div>
 
       {/* Card 1 */}
-      <div className="flex flex-col lg:flex-row bg-[#ECF2E6] pl-8 pt-8 pb-8 pr-[86px] mb-16 rounded-lg gap-5">
+      <div className="flex flex-col lg:flex-row bg-[#ECF2E6] md:pl-8 md:pt-8 md:pb-8 md:pr-[86px] px-5 pt-5 pb-11 md:mb-16 mb-[38px] rounded-lg gap-5">
         {/* Left Image */}
-        <div className="lg:w-2/5 mb-[16px] lg:mb-0 flex justify-start items-center">
+        <div className="lg:w-2/5 mb-[30px] lg:mb-0 flex justify-start items-center">
           <img
             src={LeftImage}
             alt="Pesticide Category"
-            className="w-[444px] h-[391px]"
+            className="md:w-[444px] md:h-[391px] h-[273px]"
           />
         </div>
         {/* Right Content */}
@@ -43,44 +43,31 @@ const Categories = () => {
             to safeguard crop health and ensure sustainable agricultural
             productivity.
           </p>
-          {/* <div className="flex mb-4">
-            <img
-              src={img1}
-              alt="Pesticide Detail"
-              className="mr-14 w-[92px] h-[77px] rounded"
-            />
-            <img
-              src={img2}
-              alt="Pesticide Detail"
-              className="w-[92px] h-[77px] rounded"
-            />
-          </div>
-          <p>Some additional information here.</p> */}
+
           {/* Images with individual texts */}
-          <div className="flex space-x-14">
-            {/* First Image and Text */}
+          <div className="flex flex-wrap justify-between md:justify-normal md:space-x-14">
             <div className="text-center">
               <img
                 src={img1}
                 alt="Pesticide Detail"
                 className="w-[92px] h-[77px] rounded mb-2"
               />
-              <p className="text-[#000] text-[16px] font-normal text-left">Sunn Pest</p>{" "}
-              {/* Text below img1 */}
+              <p className="text-[#000] text-[16px] font-normal text-left">
+                Sunn Pest
+              </p>{" "}
             </div>
-
-            {/* Second Image and Text */}
+            
             <div className="text-center">
               <img
                 src={img2}
                 alt="Pesticide Detail"
                 className="w-[92px] h-[77px] rounded mb-2"
               />
-              <p className="text-[#000] text-[16px] font-normal text-left">Rape Beetle</p>{" "}
-              {/* Text below img2 */}
+              <p className="text-[#000] text-[16px] font-normal text-left">
+                Rape Beetle
+              </p>{" "}
             </div>
 
-            {/* Third Image and Text */}
             <div className="text-center">
               <img
                 src={img3}
@@ -90,20 +77,19 @@ const Categories = () => {
               <p className="text-[#000] text-[16px] font-normal text-left">
                 African Cotton Leaform
               </p>{" "}
-              {/* Text below img2 */}
             </div>
           </div>
         </div>
       </div>
 
       {/* Card 2 */}
-      <div className="flex flex-col lg:flex-row-reverse bg-[#ECF2E6] pr-8 pt-8 pb-8 pl-[37px] rounded-lg gap-5">
+      <div className="flex flex-col lg:flex-row-reverse bg-[#ECF2E6] md:pr-8 md:pt-8 md:pb-8 md:pl-[37px] px-5 pt-5 pb-[35px] rounded-lg gap-5">
         {/* Right Image */}
-        <div className="lg:w-2/5 mb-[16px] lg:mb-0 flex justify-end items-center">
+        <div className="lg:w-2/5 mb-[30px] lg:mb-0 flex justify-end items-center">
           <img
             src={RightImage}
             alt="Pesticide Category"
-            className="w-[444px] h-[391px]"
+            className="md:w-[444px] md:h-[391px] h-[273px]"
           />
         </div>
         {/* Left Content */}
@@ -134,7 +120,7 @@ const Categories = () => {
           </div>
           <p>Some additional information here.</p> */}
           {/* Images with individual texts */}
-          <div className="flex space-x-14">
+          <div className="flex flex-wrap justify-between md:justify-normal md:space-x-14">
             {/* First Image and Text */}
             <div className="text-center">
               <img
@@ -142,7 +128,9 @@ const Categories = () => {
                 alt="Pesticide Detail"
                 className="w-[92px] h-[77px] rounded mb-2"
               />
-              <p className="text-[#000] text-[16px] font-normal text-left">Wheat Blast</p>{" "}
+              <p className="text-[#000] text-[16px] font-normal text-left">
+                Wheat Blast
+              </p>{" "}
               {/* Text below img1 */}
             </div>
 
