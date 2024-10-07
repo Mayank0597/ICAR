@@ -51,7 +51,7 @@ const MapComponent = () => {
         center={[21.225, 81.49]} // Central location between Bhilai and Raipur
         zoom={10} // Adjusted zoom level to fit both cities
         scrollWheelZoom={false} // Disable scroll zoom by default
-        style={{ height: "400px", width: "100%" }} // Responsive map size
+        style={{ height: "400px", width: "100%", zIndex: 10 }} // Responsive map size
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

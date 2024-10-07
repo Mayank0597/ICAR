@@ -5,20 +5,20 @@ import image3 from "/src/assets/ph_plant-fill (6).png";
 
 const MissionSection = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-16 bg-white relative">
+    <div className="flex flex-col md:flex-row items-center justify-between px-[30px] md:px-20 md:py-16 bg-white relative">
       {/* Left Side - Images */}
       <div className="relative w-full md:w-1/2 flex justify-center md:justify-start">
         {/* Top Image */}
         <img
           src={image1}
           alt="About Us Top"
-          className="w-[480px] h-[350px] rounded relative z-20"
+          className="w-[480px] h-[350px] rounded relative z-20 md:mb-0 mb-[30px]"
         />
         {/* Bottom Image */}
         <img
           src={image2}
           alt="About Us Bottom"
-          className="w-[168px] h-[161px] absolute -top-1 left-6 md:left-[457px] z-10"
+          className="w-[168px] h-[161px] absolute -top-1 left-6 md:left-[457px] z-10 hidden md:block"
         />
       </div>
       {/* Right Side - Our Mission Text */}
@@ -36,12 +36,14 @@ const MissionSection = () => {
           empower communities to take necessary measures in pest control and
           disease prevention.
         </p>
+        {/* Horizontal Grey Line for Mobile */}
+        <div className="block md:hidden w-full h-[1px] bg-[#E2E2E2] mt-[50px]"></div>
       </div>
       {/* Hologram Image - Positioned Bottom Left */}
       <img
         src={image3}
         alt="Hologram"
-        className="absolute bottom-2 right-[86px] w-[240px] h-[140px]"
+        className="absolute bottom-2 right-[86px] w-[240px] h-[140px] hidden md:block"
       />
     </div>
   );

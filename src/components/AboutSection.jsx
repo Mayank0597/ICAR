@@ -21,6 +21,8 @@ const AboutSection = () => {
           nation’s agriculture from biotic stress through innovative research,
           advanced technologies, and public awareness.
         </p>
+        {/* Horizontal Grey Line for Mobile */}
+        <div className="block md:hidden w-full h-[1px] bg-[#E2E2E2] mt-[50px]"></div>
       </div>
 
       {/* Right Side - Images */}

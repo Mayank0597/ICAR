@@ -8,22 +8,22 @@ import hologram2 from "/src/assets/ph_plant-fill (1).png";
 
 const OurTeamSection = () => {
   return (
-    <div className="relative bg-white py-16">
+    <div className="relative bg-white md:py-16">
       {/* Hologram Images */}
       <img
         src={hologram1}
         alt="Hologram Top Right"
-        className="absolute top-0 right-0 w-[120px] md:w-[160px] z-10"
+        className="absolute top-0 right-0 w-[120px] md:w-[160px] z-10 hidden md:block"
       />
       <img
         src={hologram2}
         alt="Hologram Bottom Left"
-        className="absolute bottom-0 left-0 w-[120px] md:w-[200px] z-10"
+        className="absolute bottom-0 left-0 w-[120px] md:w-[200px] z-10 hidden md:block"
       />
 
       <div className="px-6 md:px-20 py-16">
         {/* Section Heading */}
-        <h2 className="text-3xl md:text-[39px] font-semibold mb-12 relative z-20 text-[#393939]">
+        <h2 className="text-[33px] md:text-[39px] font-semibold md:mb-12 mb-[18px] relative z-20 text-[#393939]">
           Our <span className="text-[#6BA85D]">Team</span> 
         </h2>
 

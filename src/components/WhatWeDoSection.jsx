@@ -8,7 +8,7 @@ const WhatWeDoSection = () => {
   return (
     <div className="bg-white px-6 md:px-20 py-16">
       {/* Heading Section */}
-      <div className="text-center mb-11">
+      <div className=" text-left md:text-center mb-11">
         <h2 className="text-3xl md:text-[39px] font-semibold text-[#393939] relative inline-block">
           What <span className="text-[#6BA85D]">we do?</span> 
           <span className="absolute left-0 bottom-[-8px] w-16 md:w-24 h-1 bg-[#6BA85D]"></span>

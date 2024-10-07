@@ -87,7 +87,7 @@ const TypesComponentPart4 = () => {
 
   return (
     <div className="container py-5">
-      <div className="row justify-content-center">
+      <div className="row flex-col-reverse md:flex-row justify-content-center">
         {/* Left Side Content */}
         <div className="col-lg-5">
           {/* Heading */}

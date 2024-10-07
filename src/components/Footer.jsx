@@ -13,17 +13,17 @@ const Footer = () => {
       <img
         src={hologramTopRight}
         alt="Top Right Hologram"
-        className="absolute top-0 right-0 w-[168px] h-[161px] z-0"
+        className="absolute top-0 right-0 w-[168px] h-[161px] z-0 hidden md:block"
       />
       <img
         src={hologramBottomLeft}
         alt="Bottom Left Hologram"
-        className="absolute bottom-0 left-0 w-[230px] h-[130px] z-0 ml-8"
+        className="absolute bottom-0 left-0 w-[230px] h-[130px] z-0 ml-8 hidden md:block"
       />
 
       <div className="container mx-auto relative z-10 flex flex-col md:flex-row justify-between">
         {/* Section 1: Company Logo */}
-        <div className="mb-8 md:mb-[60px] pt-16 ml-[62px]">
+        <div className="mb-[60px] md:pt-16 pt-[60px] md:px-0 px-[116px] md:ml-[62px] flex justify-center">
           <img
             src={companyLogo}
             alt="Company Logo"
@@ -32,9 +32,9 @@ const Footer = () => {
         </div>
 
         {/* Section 2: Social Media */}
-        <div className="mb-8 md:mb-[60px] pt-[82px]">
-          <h3 className="text-[19px] font-semibold mb-4">Follow Us On:</h3>
-          <div className="flex space-x-5">
+        <div className="md:mb-[60px] md:pt-[82px] pt-[60px] md:px-0 px-[116px]">
+          <h3 className="text-[19px] font-semibold mb-4 text-center">Follow Us On:</h3>
+          <div className="flex space-x-5 justify-center">
             <Link
               to="https://facebook.com"
               target="_blank"
@@ -61,9 +61,9 @@ const Footer = () => {
         </div>
 
         {/* Section 3: Quick Links */}
-        <div className="mb-8 md:mb-[60px] pt-[82px]">
-          <h3 className="text-[19px] font-semibold mb-4">Quick Links</h3>
-          <ul className="space-y-3">
+        <div className="md:mb-[60px] md:pt-[82px] pt-[45px] md:px-0 px-[116px]">
+          <h3 className="text-[19px] font-semibold mb-4 text-center">Quick Links</h3>
+          <ul className="space-y-3 text-center">
             <li>
               <Link to="/" className="text-[#BBBBBB] hover:text-[#FFF]">
                 Home
@@ -89,9 +89,9 @@ const Footer = () => {
         </div>
 
         {/* Section 4: Legal */}
-        <div className="mb-8 md:mb-[60px] py-[82px] mr-[168px]">
-          <h3 className="text-[19px] font-semibold mb-4">Legal</h3>
-          <ul className="space-y-3">
+        <div className="mb-[35px] md:mb-[60px] md:pt-[82px] pt-[45px] md:mr-[168px]">
+          <h3 className="text-[19px] font-semibold mb-4 text-center">Legal</h3>
+          <ul className="space-y-3 text-center">
             <li>
               <Link to="/terms" className="text-[#BBBBBB] hover:text-[#FFF]">
                 Terms of Use

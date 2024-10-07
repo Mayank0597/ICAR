@@ -7,14 +7,14 @@ const GetInTouch = () => {
   return (
     <div className="bg-[#F0F5EB] py-[71px] px-4 md:px-20 flex flex-col md:flex-row justify-between items-center">
       {/* Left Side - Contact Info */}
-      <div className="w-full md:w-1/2 mb-12 md:mb-0 md:ml-[90px]">
-        <h2 className="text-3xl md:text-[46px] font-semibold mb-12 text-[#393939]">
+      <div className="w-full md:w-1/2 mb-12 md:mb-0 md:ml-[90px] md:px-0 px-[30px]">
+        <h2 className="text-[33px] md:text-[46px] font-semibold mb-12 text-[#393939]">
           <span className="text-[#6BA85D]">Get in Touch </span>
           with Us!
         </h2>
 
         {/* Address */}
-        <div className="flex items-start mb-[61px]">
+        <div className="flex items-start md:mb-[61px] mb-10">
           <img
             src={locationIcon}
             alt="Location Icon"
@@ -29,7 +29,7 @@ const GetInTouch = () => {
         </div>
 
         {/* Phone */}
-        <div className="flex items-start mb-[61px]">
+        <div className="flex items-start md:mb-[61px] mb-10">
           <img
             src={phoneIcon}
             alt="Phone Icon"

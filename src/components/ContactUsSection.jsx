@@ -62,7 +62,7 @@ const ContactUsSection = () => {
 
   return (
     <div
-      className="relative bg-cover bg-center flex items-center justify-center"
+      className="relative bg-cover bg-center flex items-center justify-center md:mb-0 mb-[85px]"
       style={{
         backgroundImage: `url(${isMobile ? mobileImage : desktopImage})`,
       }}

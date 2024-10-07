@@ -94,7 +94,7 @@ const TypesComponentPart1 = () => {
           <img
             src={img1}
             alt="Virus"
-            className="rounded w-full h-[600px]"
+            className="rounded md:w-full md:h-[600px]"
             // style={{ width: "607px", height: "787px", objectFit: "cover" }}
           />
         </div>
