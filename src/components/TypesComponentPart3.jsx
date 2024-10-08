@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import img1 from "/src/assets/Optimized image/Frame192112-ezgif.com-png-to-webp-converter.webp"; // Replace with your image path
+import mobile from "/src/assets/Optimized image/Frame192116-ezgif.com-png-to-webp-converter.webp";
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
 import rightTick from "/src/assets/circle-check-big.png";
 
@@ -9,14 +10,12 @@ const TypesComponentPart3 = () => {
     {
       id: 1,
       title: "Casual Organism",
-      content:
-        "Meligethes aeneus (Fabricius)",
+      content: "Meligethes aeneus (Fabricius)",
     },
     {
       id: 2,
       title: "Origin",
-      content:
-        "Native to Europe",
+      content: "Native to Europe",
     },
     {
       id: 3,
@@ -87,57 +86,60 @@ const TypesComponentPart3 = () => {
   ];
 
   return (
-    <div className="container py-5">
-      <div className="row justify-content-center">
-        {/* Left Side Image */}
-        <div className="col-lg-5">
-          <img
-            src={img1}
-            alt="Virus"
-            className="img-fluid rounded w-full h-[600px]"
-            // style={{ width: "607px", height: "787px", objectFit: "cover" }}
-          />
-        </div>
-        <div className="col-lg-1"></div>
-        {/* Right Side Content */}
-        <div className="col-lg-5">
-          {/* Heading */}
-          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
-            Rape Beetle (Meligethes Aeneus)
-          </h2>
+    <>
+      <div className="container py-5 md:px-0 px-[30px]">
+        <div className="row justify-content-center">
+          {/* Left Side Image */}
+          <div className="col-lg-5 mb-[40px]">
+            <img
+              src={window.innerWidth < 768 ? mobile : img1}
+              alt="Virus"
+              className="img-fluid rounded w-full md:h-[600px]"
+              // style={{ width: "607px", height: "787px", objectFit: "cover" }}
+            />
+          </div>
+          <div className="col-lg-1"></div>
+          {/* Right Side Content */}
+          <div className="col-lg-5">
+            {/* Heading */}
+            <h2 className="mb-3 md:text-[39px] text-[23px] font-semibold text-[#000]">
+              Rape Beetle (Meligethes Aeneus)
+            </h2>
 
-          {/* Lorem Text */}
-          <p className="mb-4 text-[#9F9F9F] font-medium text-justify">
-            Rape beetles are particularly harmful to canola and rapeseed crops,
-            where they feed on the leaves and buds. Their infestations can
-            result in stunted growth and lower seed production, negatively
-            impacting overall crop yield.
-          </p>
+            {/* Lorem Text */}
+            <p className="mb-4 text-[#9F9F9F] font-medium text-justify">
+              Rape beetles are particularly harmful to canola and rapeseed
+              crops, where they feed on the leaves and buds. Their infestations
+              can result in stunted growth and lower seed production, negatively
+              impacting overall crop yield.
+            </p>
 
-          {/* Accordion Section */}
-          <Accordion defaultActiveKey="0">
-            {accordionData.map(({ id, title, content }) => (
-              <Accordion.Item eventKey={id.toString()} key={id}>
-                <Accordion.Header className="text-[#393939] font-medium">
-                  {/* Right Tick Icon */}
-                  <img
-                    src={rightTick}
-                    alt="tick"
-                    className="mr-3"
-                    style={{ width: "20px", height: "20px" }}
-                  />
-                  {title}
-                </Accordion.Header>
+            {/* Accordion Section */}
+            <Accordion defaultActiveKey="0">
+              {accordionData.map(({ id, title, content }) => (
+                <Accordion.Item eventKey={id.toString()} key={id}>
+                  <Accordion.Header className="text-[#393939] font-medium">
+                    {/* Right Tick Icon */}
+                    <img
+                      src={rightTick}
+                      alt="tick"
+                      className="mr-3"
+                      style={{ width: "20px", height: "20px" }}
+                    />
+                    {title}
+                  </Accordion.Header>
 
-                <Accordion.Body className="text-[#9F9F9F] text-base font-medium">
-                  {content}
-                </Accordion.Body>
-              </Accordion.Item>
-            ))}
-          </Accordion>
+                  <Accordion.Body className="text-[#9F9F9F] text-base font-medium">
+                    {content}
+                  </Accordion.Body>
+                </Accordion.Item>
+              ))}
+            </Accordion>
+          </div>
         </div>
       </div>
-    </div>
+      <hr className="md:hidden mx-[30px]" />
+    </>
   );
 };
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import img1 from "/src/assets/Optimized image/Frame192113-ezgif.com-png-to-webp-converter.webp"; // Replace with your image path
+import mobile from "/src/assets/Optimized image/Frame192119-ezgif.com-png-to-webp-converter.webp";
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
 import rightTick from "/src/assets/circle-check-big.png";
 
@@ -86,53 +87,60 @@ const TypesComponentPart4 = () => {
   ];
 
   return (
-    <div className="container py-5">
-      <div className="row flex-col-reverse md:flex-row justify-content-center">
-        {/* Left Side Content */}
-        <div className="col-lg-5">
-          {/* Heading */}
-          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
-            Wheat Blast (Magnaporthe Oryzae Pathotype Triticum)
-          </h2>
+    <>
+      <div className="container py-5 md:px-0 px-[30px]">
+        <div className="row flex-col-reverse md:flex-row justify-content-center">
+          {/* Left Side Content */}
+          <div className="col-lg-5">
+            {/* Heading */}
+            <h2 className="mb-3 md:text-[39px] text-[23px] font-semibold text-[#000]">
+              Wheat Blast (Magnaporthe Oryzae Pathotype Triticum)
+            </h2>
 
-          {/* Lorem Text */}
-          <p className="mb-4 text-[#9F9F9F] font-medium text-justify">
-            Wheat blast is a devastating fungal disease that affects wheat
-            crops, leading to severe yield reductions and compromised grain
-            quality. The disease spreads rapidly under favourable conditions,
-            making early detection and management essential.
-          </p>
+            {/* Lorem Text */}
+            <p className="mb-4 text-[#9F9F9F] font-medium text-justify">
+              Wheat blast is a devastating fungal disease that affects wheat
+              crops, leading to severe yield reductions and compromised grain
+              quality. The disease spreads rapidly under favourable conditions,
+              making early detection and management essential.
+            </p>
 
-          {/* Accordion Section */}
-          <Accordion defaultActiveKey="0">
-            {accordionData.map(({ id, title, content }) => (
-              <Accordion.Item eventKey={id.toString()} key={id}>
-                <Accordion.Header className="text-[#393939] font-medium">
-                  {/* Right Tick Icon */}
-                  <img
-                    src={rightTick}
-                    alt="tick"
-                    className="mr-3"
-                    style={{ width: "20px", height: "20px" }}
-                  />
-                  {title}
-                </Accordion.Header>
+            {/* Accordion Section */}
+            <Accordion defaultActiveKey="0">
+              {accordionData.map(({ id, title, content }) => (
+                <Accordion.Item eventKey={id.toString()} key={id}>
+                  <Accordion.Header className="text-[#393939] font-medium">
+                    {/* Right Tick Icon */}
+                    <img
+                      src={rightTick}
+                      alt="tick"
+                      className="mr-3"
+                      style={{ width: "20px", height: "20px" }}
+                    />
+                    {title}
+                  </Accordion.Header>
 
-                <Accordion.Body className="text-[#9F9F9F] font-medium">
-                  {content}
-                </Accordion.Body>
-              </Accordion.Item>
-            ))}
-          </Accordion>
-        </div>
+                  <Accordion.Body className="text-[#9F9F9F] font-medium">
+                    {content}
+                  </Accordion.Body>
+                </Accordion.Item>
+              ))}
+            </Accordion>
+          </div>
 
-        <div className="col-lg-1"></div>
-        {/* Right Side Image */}
-        <div className="col-lg-5">
-          <img src={img1} alt="Virus" className="w-full h-[600px] rounded" />
+          <div className="col-lg-1"></div>
+          {/* Right Side Image */}
+          <div className="col-lg-5 mb-[40px]">
+            <img
+              src={window.innerWidth ? mobile : img1}
+              alt="Virus"
+              className="w-full md:h-[600px] rounded"
+            />
+          </div>
         </div>
       </div>
-    </div>
+      <hr className="md:hidden mx-[30px]" />
+    </>
   );
 };
 

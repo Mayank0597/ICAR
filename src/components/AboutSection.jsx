@@ -5,7 +5,7 @@ import image3 from "/src/assets/Optimized image/ph_plant-fill4-ezgif.com-png-to-
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center justify-between px-[30px] md:px-20 md:py-16 py-[50px] bg-white relative">
+    <div className="flex flex-col-reverse md:flex-row items-center justify-between px-[30px] md:px-20 md:py-16 pt-[50px] bg-white relative">
       {/* Left Side - About Us Text */}
       <div className="w-full md:w-1/2 mb-8 md:mb-0 z-10">
         <h2 className="text-3xl md:text-[39px] font-semibold relative mb-8 text-[#393939]">
@@ -22,7 +22,7 @@ const AboutSection = () => {
           advanced technologies, and public awareness.
         </p>
         {/* Horizontal Grey Line for Mobile */}
-        <div className="block md:hidden w-full h-[1px] bg-[#E2E2E2] mt-[50px]"></div>
+        {/* <div className="block md:hidden w-full h-[1px] bg-[#E2E2E2] mt-[50px]"></div> */}
       </div>
 
       {/* Right Side - Images */}

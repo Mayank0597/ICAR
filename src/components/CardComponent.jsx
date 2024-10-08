@@ -153,12 +153,12 @@ const CardComponent = () => {
     //   </div>
     // </div>
     <>
-      <div className="bg-[#ECF2E6] relative py-20 px-5">
-        <h2 className="text-3xl md:text-[39px] font-semibold text-[#393939] mb-11">
+      <div className="bg-[#ECF2E6] relative py-20 md:px-5 px-[30px]">
+        <h2 className="text-[33px] md:text-[39px] font-semibold text-[#393939] mb-11">
           Types of <span className="text-[#6BA85D]">Pests</span>
         </h2>
-        <div className="flex flex-wrap gap-3">
-          <div className="w-[32%] flex flex-col">
+        <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+          <div className="md:w-[32%] w-full flex flex-col md:mb-0 mb-[60px]">
             <img src={image1} className="rounded-t-md" alt="" />
             <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
@@ -184,7 +184,7 @@ const CardComponent = () => {
               </div>
             </div>
           </div>
-          <div className="w-[32%] flex flex-col">
+          <div className="md:w-[32%] w-full flex flex-col md:mb-0 mb-[60px]">
             <img src={image2} className="rounded-t-md" alt="" />
             <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
@@ -210,7 +210,7 @@ const CardComponent = () => {
               </div>
             </div>
           </div>
-          <div className="w-[32%] flex flex-col">
+          <div className="md:w-[32%] w-full flex flex-col md:mb-0 mb-[60px]">
             <img src={image3} className="rounded-t-md" alt="" />
             <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
@@ -236,7 +236,7 @@ const CardComponent = () => {
               </div>
             </div>
           </div>
-          <div className="w-[32%] flex flex-col">
+          <div className="md:w-[32%] w-full flex flex-col md:mb-0 mb-[60px]">
             <img src={image4} className="rounded-t-md" alt="" />
             <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">
@@ -262,7 +262,7 @@ const CardComponent = () => {
               </div>
             </div>
           </div>
-          <div className="w-[32%] flex flex-col">
+          <div className="md:w-[32%] w-full flex flex-col">
             <img src={image5} className="rounded-t-md" alt="" />
             <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
               <div className="flex flex-col gap-1">

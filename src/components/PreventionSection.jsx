@@ -2,6 +2,7 @@ import React from "react";
 import image1 from "/src/assets/Optimized image/Frame194-ezgif.com-png-to-webp-converter.webp";
 import image2 from "/src/assets/ic_twotone-grass (5).png";
 import image3 from "/src/assets/ph_plant-fill (5).png";
+import mobile from "/src/assets/Optimized image/Frame65-ezgif.com-png-to-webp-converter.webp"
 
 const PreventionSection = () => {
   return (
@@ -42,9 +43,9 @@ const PreventionSection = () => {
       <div className="relative w-full md:w-1/2 flex justify-center md:justify-end">
         {/* Top Image */}
         <img
-          src={image1}
+          src={window.innerWidth < 768 ? mobile :image1}
           alt="Prevention Top"
-          className="md:w-[560px] w-full md:h-auto h-[370px] rounded relative z-20 md:mb-0 mb-[30px]"
+          className="md:w-[560px] w-full md:h-auto h-[370px] rounded relative z-20 md:mb-0 mb-[30px] md:mt-0 -mt-20 "
         />
         {/* Bottom Image */}
         <img

@@ -336,7 +336,7 @@ const Navbar = () => {
     <>
       <nav className="md:px-5 px-[30px] md:py-0 py-[14px] bg-white shadow-md">
         {/* First div: Logo and heading */}
-        <div className="mx-auto flex justify-between items-center pt-2">
+        <div className="mx-auto flex justify-between items-center pt-2 ">
           {/* Left logo */}
           <div className="flex items-center">
             <img
@@ -399,7 +399,7 @@ const Navbar = () => {
           {/* Close button (X) */}
           <button
             className="absolute top-4 right-4 text-black"
-            onClick={() => setMenuOpen(false)} // Close menu when clicked
+            onClick={() => setMenuOpen(false)} 
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -417,7 +417,7 @@ const Navbar = () => {
             </svg>
           </button>
           <img
-            src={LeftLogo} // You can change to another logo if needed
+            src={LeftLogo} 
             alt="Company Logo"
             className="w-[100px] mb-10"
           />
@@ -427,60 +427,68 @@ const Navbar = () => {
                 to="/"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#393939] font-normal border-b-2 border-[#6BA85D] pb-1"
-                    : "text-[#737373] font-medium pb-1"
+                    ? "text-[#393939] font-bold"
+                    : "text-[#737373] font-medium"
                 }
-                onClick={handleLinkClick} // Close the menu on click
+                onClick={handleLinkClick} 
               >
                 Home
               </NavLink>
             </li>
-            <hr className="w-full" />
+            <hr className={`w-full ${
+            window.location.pathname === "/" ? "border-[#6BA85D] border-2" : ""
+          }`} />
 
             <li>
               <NavLink
                 to="/about"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#393939] font-normal border-b-2 border-[#6BA85D] pb-1"
-                    : "text-[#737373] font-medium pb-1"
+                    ? "text-[#393939] font-bold"
+                    : "text-[#737373] font-medium"
                 }
-                onClick={handleLinkClick} // Close the menu on click
+                onClick={handleLinkClick} 
               >
                 About Us
               </NavLink>
             </li>
-            <hr className="w-full" />
+            <hr className={`w-full ${
+            window.location.pathname === "/about" ? "border-[#6BA85D] border-2" : ""
+          }`} />
 
             <li>
               <NavLink
                 to="/types"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#393939] font-normal border-b-2 border-[#6BA85D] pb-1"
-                    : "text-[#737373] font-medium pb-1"
+                    ? "text-[#393939] font-bold"
+                    : "text-[#737373] font-medium"
                 }
-                onClick={handleLinkClick} // Close the menu on click
+                onClick={handleLinkClick} 
               >
                 Types
               </NavLink>
             </li>
-            <hr className="w-full" />
+            <hr className={`w-full ${
+            window.location.pathname === "/types" ? "border-[#6BA85D] border-2" : ""
+          }`} />
 
             <li>
               <NavLink
                 to="/contact"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#393939] font-normal border-b-2 border-[#6BA85D] pb-1"
-                    : "text-[#737373] font-medium pb-1"
+                    ? "text-[#393939] font-bold"
+                    : "text-[#737373] font-medium"
                 }
-                onClick={handleLinkClick} // Close the menu on click
+                onClick={handleLinkClick} 
               >
                 Contact Us
               </NavLink>
             </li>
-            <hr className="w-full" />
+            <hr className={`w-full ${
+            window.location.pathname === "/contact" ? "border-[#6BA85D] border-2" : ""
+          }`} />
           </ul>
         </div>
       )}
@@ -499,7 +507,7 @@ const Navbar = () => {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  ? "text-[#393939] font-bold border-b-4 border-[#6BA85D] pb-1"
                   : "text-[#737373] font-medium pb-1"
               }
             >
@@ -512,7 +520,7 @@ const Navbar = () => {
               to="/about"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  ? "text-[#393939] font-bold border-b-4 border-[#6BA85D] pb-1"
                   : "text-[#737373] font-medium pb-1"
               }
             >
@@ -525,7 +533,7 @@ const Navbar = () => {
               to="/types"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  ? "text-[#393939] font-bold border-b-4 border-[#6BA85D] pb-1"
                   : "text-[#737373] font-medium pb-1"
               }
             >
@@ -538,7 +546,7 @@ const Navbar = () => {
               to="/contact"
               className={({ isActive }) =>
                 isActive
-                  ? "text-[#393939] font-medium border-b-4 border-[#6BA85D] pb-1"
+                  ? "text-[#393939] font-bold border-b-4 border-[#6BA85D] pb-1"
                   : "text-[#737373] font-medium pb-1"
               }
             >

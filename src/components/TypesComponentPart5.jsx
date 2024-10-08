@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import img1 from "/src/assets/Optimized image/Frame192114-ezgif.com-png-to-webp-converter.webp"; // Replace with your image path
+import mobile from "/src/assets/Optimized image/Frame192117-ezgif.com-png-to-webp-converter.webp";
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
 import rightTick from "/src/assets/circle-check-big.png";
 
@@ -87,14 +88,14 @@ const TypesComponentPart5 = () => {
   ];
 
   return (
-    <div className="container pt-5 pb-24">
+    <div className="container pt-5 pb-24 md:px-0 px-[30px]">
       <div className="row justify-content-center">
         {/* Left Side Image */}
-        <div className="col-lg-5">
+        <div className="col-lg-5 mb-[40px]">
           <img
-            src={img1}
+            src={window.innerWidth < 768 ? mobile : img1}
             alt="Virus"
-            className="img-fluid rounded w-full h-[600px]"
+            className="img-fluid rounded w-full md:h-[600px]"
             // style={{ width: "607px", height: "787px", objectFit: "cover" }}
           />
         </div>
@@ -102,7 +103,7 @@ const TypesComponentPart5 = () => {
         {/* Right Side Content */}
         <div className="col-lg-5">
           {/* Heading */}
-          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
+          <h2 className="mb-3 md:text-[39px] text-[23px] font-semibold text-[#000]">
             Tomato Brown Rugose Fruit Disease (ToBRFV)
           </h2>
 

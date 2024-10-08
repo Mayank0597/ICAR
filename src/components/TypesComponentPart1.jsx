@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import img1 from "/src/assets/Optimized image/Frame192110-ezgif.com-png-to-webp-converter.webp"; // Replace with your image path
+import mobile from "/src/assets/Optimized image/Frame192115-ezgif.com-png-to-webp-converter.webp";
 import { Accordion } from "react-bootstrap"; // Import Bootstrap Accordion
 import rightTick from "/src/assets/circle-check-big.png";
 
@@ -87,14 +88,15 @@ const TypesComponentPart1 = () => {
   ];
 
   return (
-    <div className="container py-5">
+    <>
+    <div className="container py-5 md:px-0 px-[30px]">
       <div className="row justify-content-center">
         {/* Left Side Image */}
-        <div className="col-lg-5">
+        <div className="col-lg-5 mb-[40px]">
           <img
-            src={img1}
+            src={window.innerWidth < 768 ? mobile : img1}
             alt="Virus"
-            className="rounded md:w-full md:h-[600px]"
+            className="rounded w-full md:h-[600px]"
             // style={{ width: "607px", height: "787px", objectFit: "cover" }}
           />
         </div>
@@ -102,8 +104,8 @@ const TypesComponentPart1 = () => {
         {/* Right Side Content */}
         <div className="col-lg-5">
           {/* Heading */}
-          <h2 className="mb-3 text-[39px] font-semibold text-[#000]">
-          Sunn Pest (Eurygaster Integriceps Puton)
+          <h2 className="mb-3 md:text-[39px] text-[23px] font-semibold text-[#000]">
+            Sunn Pest (Eurygaster Integriceps Puton)
           </h2>
 
           {/* Lorem Text */}
@@ -137,7 +139,10 @@ const TypesComponentPart1 = () => {
           </Accordion>
         </div>
       </div>
+       
     </div>
+    <hr className='md:hidden mx-[30px]' />
+    </>
   );
 };
 

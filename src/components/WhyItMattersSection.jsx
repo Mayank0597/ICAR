@@ -12,7 +12,7 @@ const WhyItMattersSection = () => {
       }}
     >
       {/* Content on Image */}
-      <div className="absolute text-[#FFFFFF] w-2/3 text-justify">
+      <div className="absolute text-[#FFFFFF] md:w-2/3 md:px-0 px-[30px] text-justify">
         <h2 className="text-[33px] md:text-[39px] font-semibold mb-4">
           Why It Matters?
         </h2>

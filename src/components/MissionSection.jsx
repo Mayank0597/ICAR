@@ -37,7 +37,7 @@ const MissionSection = () => {
           disease prevention.
         </p>
         {/* Horizontal Grey Line for Mobile */}
-        <div className="block md:hidden w-full h-[1px] bg-[#E2E2E2] mt-[50px]"></div>
+        <div className="block md:hidden w-full h-[1px] bg-[#E2E2E2] mt-[50px] mb-[20px]"></div>
       </div>
       {/* Hologram Image - Positioned Bottom Left */}
       <img

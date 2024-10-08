@@ -6,7 +6,7 @@ import logo4 from "/src/assets/Frame 49 (3).png";
 
 const WhatWeDoSection = () => {
   return (
-    <div className="bg-white px-6 md:px-20 py-16">
+    <div className="bg-white px-[30px] md:px-20 pb-16">
       {/* Heading Section */}
       <div className=" text-left md:text-center mb-11">
         <h2 className="text-3xl md:text-[39px] font-semibold text-[#393939] relative inline-block">

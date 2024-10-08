@@ -6,6 +6,8 @@ import img2 from "/src/assets/Optimized image/Frame223-ezgif.com-png-to-webp-con
 import img3 from "/src/assets/Optimized image/Frame224-ezgif.com-png-to-webp-converter.webp";
 import img4 from "/src/assets/Optimized image/Frame225-ezgif.com-png-to-webp-converter.webp";
 import img5 from "/src/assets/Optimized image/Frame226-ezgif.com-png-to-webp-converter.webp";
+import LeftImageMobile from "/src/assets/Optimized image/Frame60-ezgif.com-png-to-webp-converter.webp";
+import RightImageMobile from "/src/assets/Optimized image/Frame601-ezgif.com-png-to-webp-converter.webp";
 
 const Categories = () => {
   return (
@@ -18,13 +20,13 @@ const Categories = () => {
       </div>
 
       {/* Card 1 */}
-      <div className="flex flex-col lg:flex-row bg-[#ECF2E6] md:pl-8 md:pt-8 md:pb-8 md:pr-[86px] px-5 pt-5 pb-11 md:mb-16 mb-[38px] rounded-lg gap-5">
+      <div className="flex flex-col lg:flex-row bg-[#ECF2E6] md:pl-8 md:pt-8 md:pb-8 md:pr-[86px] pl-5 pr-5 pt-5 pb-11 md:mb-16 mb-[38px] rounded-lg gap-5">
         {/* Left Image */}
-        <div className="lg:w-2/5 mb-[30px] lg:mb-0 flex justify-start items-center">
+        <div className="lg:w-2/5 md:mb-0 flex justify-start items-center">
           <img
-            src={LeftImage}
+            src={window.innerWidth < 768 ? LeftImageMobile : LeftImage}
             alt="Pesticide Category"
-            className="md:w-[444px] md:h-[391px] h-[273px]"
+            className="md:w-[444px] md:h-[391px] h-[273px] w-full"
           />
         </div>
         {/* Right Content */}
@@ -56,7 +58,7 @@ const Categories = () => {
                 Sunn Pest
               </p>{" "}
             </div>
-            
+
             <div className="text-center">
               <img
                 src={img2}
@@ -83,13 +85,13 @@ const Categories = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="flex flex-col lg:flex-row-reverse bg-[#ECF2E6] md:pr-8 md:pt-8 md:pb-8 md:pl-[37px] px-5 pt-5 pb-[35px] rounded-lg gap-5">
+      <div className="flex flex-col lg:flex-row-reverse bg-[#ECF2E6] md:pr-8 md:pt-8 md:pb-8 md:pl-[37px] pl-5 pr-5 pt-5 pb-[35px] rounded-lg gap-5">
         {/* Right Image */}
-        <div className="lg:w-2/5 mb-[30px] lg:mb-0 flex justify-end items-center">
+        <div className="lg:w-2/5 lg:mb-0 flex justify-end items-center">
           <img
-            src={RightImage}
+            src={window.innerWidth < 768 ? RightImageMobile : RightImage}
             alt="Pesticide Category"
-            className="md:w-[444px] md:h-[391px] h-[273px]"
+            className="md:w-[444px] md:h-[391px] h-[273px] w-full"
           />
         </div>
         {/* Left Content */}
