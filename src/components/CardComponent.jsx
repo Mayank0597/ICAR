@@ -4,6 +4,11 @@ import image2 from "/src/assets/Optimized image/Frame1412-ezgif.com-png-to-webp-
 import image3 from "/src/assets/Optimized image/Frame1413-ezgif.com-png-to-webp-converter.webp";
 import image4 from "/src/assets/Optimized image/Frame1414-ezgif.com-png-to-webp-converter.webp";
 import image5 from "/src/assets/Optimized image/Frame1415-ezgif.com-png-to-webp-converter.webp";
+import mobileImage1 from "/src/assets/Optimized image/Frame53-ezgif.com-png-to-webp-converter (1).webp";
+import mobileImage2 from "/src/assets/Optimized image/Frame531-ezgif.com-optiwebp.webp";
+import mobileImage3 from "/src/assets/Optimized image/Frame532-ezgif.com-png-to-webp-converter.webp";
+import mobileImage4 from "/src/assets/Optimized image/Frame533-ezgif.com-png-to-webp-converter.webp";
+import mobileImage5 from "/src/assets/Optimized image/Frame534-ezgif.com-png-to-webp-converter.webp";
 import { Link } from "react-router-dom";
 
 const CardComponent = () => {
@@ -159,9 +164,13 @@ const CardComponent = () => {
         </h2>
         <div className="flex flex-wrap gap-3 justify-center md:justify-start">
           <div className="md:w-[32%] w-full flex flex-col md:mb-0 mb-[60px]">
-            <img src={image1} className="rounded-t-md" alt="" />
-            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
-              <div className="flex flex-col gap-1">
+            <img
+              src={window.innerWidth < 768 ? mobileImage1 : image1}
+              className="rounded-t-md w-full h-auto"
+              alt=""
+            />
+            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md gap-4">
+              <div className="flex flex-col md:gap-1 gap-2">
                 <h5 className="text-[#000] font-semibold text-[19px]">
                   Sunn Pest (Eurygaster Integriceps Puton)
                 </h5>
@@ -185,9 +194,9 @@ const CardComponent = () => {
             </div>
           </div>
           <div className="md:w-[32%] w-full flex flex-col md:mb-0 mb-[60px]">
-            <img src={image2} className="rounded-t-md" alt="" />
-            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
-              <div className="flex flex-col gap-1">
+            <img src={window.innerWidth < 768 ? mobileImage2 : image2} className="rounded-t-md w-full h-auto" alt="" />
+            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md gap-4">
+              <div className="flex flex-col md:gap-1 gap-2">
                 <h5 className="text-[#000] font-semibold text-[19px]">
                   African Cotton Leafworm (Spodoptera Littoralis)
                 </h5>
@@ -211,9 +220,9 @@ const CardComponent = () => {
             </div>
           </div>
           <div className="md:w-[32%] w-full flex flex-col md:mb-0 mb-[60px]">
-            <img src={image3} className="rounded-t-md" alt="" />
-            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
-              <div className="flex flex-col gap-1">
+            <img src={window.innerWidth < 768 ? mobileImage3 : image3} className="rounded-t-md w-full h-auto" alt="" />
+            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md gap-4">
+              <div className="flex flex-col md:gap-1 gap-2">
                 <h5 className="text-[#000] font-semibold text-[19px]">
                   Rape Beetle (Meligethes Aeneus)
                 </h5>
@@ -237,9 +246,9 @@ const CardComponent = () => {
             </div>
           </div>
           <div className="md:w-[32%] w-full flex flex-col md:mb-0 mb-[60px]">
-            <img src={image4} className="rounded-t-md" alt="" />
-            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
-              <div className="flex flex-col gap-1">
+            <img src={window.innerWidth < 768 ? mobileImage4 : image4} className="rounded-t-md w-full h-auto" alt="" />
+            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md gap-4">
+              <div className="flex flex-col md:gap-1 gap-2">
                 <h5 className="text-[#000] font-semibold text-[19px]">
                   Wheat Blast (Magnaporthe Oryzae Pathotype Triticum)
                 </h5>
@@ -263,9 +272,9 @@ const CardComponent = () => {
             </div>
           </div>
           <div className="md:w-[32%] w-full flex flex-col">
-            <img src={image5} className="rounded-t-md" alt="" />
-            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md">
-              <div className="flex flex-col gap-1">
+            <img src={window.innerWidth < 768 ? mobileImage5 : image5} className="rounded-t-md w-full h-auto" alt="" />
+            <div className="flex flex-col justify-between px-4 pt-4 pb-12 bg-[#ffffff] min-h-[350px] rounded-b-md gap-4">
+              <div className="flex flex-col md:gap-1 gap-2">  
                 <h5 className="text-[#000] font-semibold text-[19px]">
                   Tomato Brown Rugose Fruit Disease (ToBRFV)
                 </h5>

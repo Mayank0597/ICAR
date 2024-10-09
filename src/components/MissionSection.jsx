@@ -2,6 +2,7 @@ import React from "react";
 import image1 from "/src/assets/Optimized image/Frame195-ezgif.com-png-to-webp-converter.webp";
 import image2 from "/src/assets/ic_twotone-grass (2).png";
 import image3 from "/src/assets/ph_plant-fill (6).png";
+import mobileImage from "/src/assets/Optimized image/Frame197-ezgif.com-optiwebp.webp";
 
 const MissionSection = () => {
   return (
@@ -10,9 +11,9 @@ const MissionSection = () => {
       <div className="relative w-full md:w-1/2 flex justify-center md:justify-start">
         {/* Top Image */}
         <img
-          src={image1}
+          src={window.innerWidth < 768 ? mobileImage : image1}
           alt="About Us Top"
-          className="w-[480px] h-[350px] rounded relative z-20 md:mb-0 mb-[30px]"
+          className="md:w-[480px] h-auto rounded relative z-20 md:mb-0 mb-[30px]"
         />
         {/* Bottom Image */}
         <img

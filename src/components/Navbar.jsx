@@ -313,14 +313,14 @@ const Navbar = () => {
     };
   }, []);
 
-   // Disable body scroll when mobile menu is open
+  // Disable body scroll when mobile menu is open
   useEffect(() => {
     if (menuOpen) {
       document.body.style.overflow = "hidden"; // Disable scroll
     } else {
       document.body.style.overflow = ""; // Restore scroll
     }
-    
+
     // Cleanup when the component unmounts
     return () => {
       document.body.style.overflow = "";
@@ -399,7 +399,7 @@ const Navbar = () => {
           {/* Close button (X) */}
           <button
             className="absolute top-4 right-4 text-black"
-            onClick={() => setMenuOpen(false)} 
+            onClick={() => setMenuOpen(false)}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -416,79 +416,67 @@ const Navbar = () => {
               />
             </svg>
           </button>
-          <img
-            src={LeftLogo} 
-            alt="Company Logo"
-            className="w-[100px] mb-10"
-          />
+          <img src={LeftLogo} alt="Company Logo" className="w-[100px] mb-10" />
           <ul className=" space-y-4 w-full pl-[30px] pr-[50px] text-lg">
             <li>
               <NavLink
                 to="/"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#393939] font-bold"
+                    ? " font-bold text-[#6BA85D]"
                     : "text-[#737373] font-medium"
                 }
-                onClick={handleLinkClick} 
+                onClick={handleLinkClick}
               >
                 Home
               </NavLink>
             </li>
-            <hr className={`w-full ${
-            window.location.pathname === "/" ? "border-[#6BA85D] border-2" : ""
-          }`} />
+            <hr className="w-full" />
 
             <li>
               <NavLink
                 to="/about"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#393939] font-bold"
+                    ? "text-[#6BA85D] font-bold"
                     : "text-[#737373] font-medium"
                 }
-                onClick={handleLinkClick} 
+                onClick={handleLinkClick}
               >
                 About Us
               </NavLink>
             </li>
-            <hr className={`w-full ${
-            window.location.pathname === "/about" ? "border-[#6BA85D] border-2" : ""
-          }`} />
+            <hr className="w-full" />
 
             <li>
               <NavLink
                 to="/types"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#393939] font-bold"
+                    ? "text-[#6BA85D] font-bold"
                     : "text-[#737373] font-medium"
                 }
-                onClick={handleLinkClick} 
+                onClick={handleLinkClick}
               >
                 Types
               </NavLink>
             </li>
-            <hr className={`w-full ${
-            window.location.pathname === "/types" ? "border-[#6BA85D] border-2" : ""
-          }`} />
+            <hr className="w-full" />
 
             <li>
               <NavLink
                 to="/contact"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-[#393939] font-bold"
+                    ? "text-[#6BA85D] font-bold"
                     : "text-[#737373] font-medium"
                 }
-                onClick={handleLinkClick} 
+                onClick={handleLinkClick}
               >
                 Contact Us
               </NavLink>
             </li>
-            <hr className={`w-full ${
-            window.location.pathname === "/contact" ? "border-[#6BA85D] border-2" : ""
-          }`} />
+            <hr className="w-full" />
           </ul>
         </div>
       )}

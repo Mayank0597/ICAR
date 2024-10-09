@@ -2,6 +2,7 @@ import React from "react";
 import image1 from "/src/assets/Optimized image/Frame193-ezgif.com-png-to-webp-converter.webp";
 import image2 from "/src/assets/Optimized image/ic_twotone-grass1-ezgif.com-png-to-webp-converter.webp";
 import image3 from "/src/assets/Optimized image/ph_plant-fill4-ezgif.com-png-to-webp-converter.webp";
+import mobileImage from "/src/assets/Optimized image/Frame196-ezgif.com-optiwebp.webp";
 
 const AboutSection = () => {
   return (
@@ -29,9 +30,9 @@ const AboutSection = () => {
       <div className="relative w-full md:w-1/2 md:mb-0 mb-[50px] flex justify-center md:justify-end">
         {/* Top Image */}
         <img
-          src={image1}
+          src={window.innerWidth < 768 ? mobileImage : image1}
           alt="About Us Top"
-          className="w-[448px] h-[327px] rounded relative z-20"
+          className="md:w-[448px] w-full h-auto rounded relative z-20"
         />
         {/* Bottom Image */}
         <img

@@ -21,8 +21,8 @@ const GetInTouch = () => {
             className="w-5 h-[30px] mr-4"
           />
           <div>
-            <h3 className="text-2xl font-semibold text-[#6BA85D]">Address</h3>
-            <p className="text-[#393939] text-[19px] font-medium">
+            <h3 className="md:text-2xl text-[19px] font-semibold text-[#6BA85D]">Address</h3>
+            <p className="text-[#393939] md:text-[19px] text-base font-medium">
               9RJG+564, Baronda, Chhattisgarh 493225
             </p>
           </div>
@@ -36,10 +36,10 @@ const GetInTouch = () => {
             className="w-[23px] h-[30px] mr-4"
           />
           <div>
-            <h3 className="text-2xl font-semibold mb-1 text-[#6BA85D]">
+            <h3 className="md:text-2xl text-[19px] font-semibold mb-1 text-[#6BA85D]">
               Phone
             </h3>
-            <p className="text-[#393939] text-[19px] font-medium">
+            <p className="text-[#393939] md:text-[19px] text-base font-medium">
               077122 25352
             </p>
           </div>
@@ -53,10 +53,10 @@ const GetInTouch = () => {
             className="w-[30px] h-[25px] mr-4"
           />
           <div>
-            <h3 className="text-2xl font-semibold mb-1 text-[#6BA85D]">
+            <h3 className="md:text-2xl text-[19px] font-semibold mb-1 text-[#6BA85D]">
               Email
             </h3>
-            <p className="text-[#393939] text-[19px] font-medium">
+            <p className="text-[#393939] md:text-[19px] text-base font-medium">
               demo@gmail.com
             </p>
           </div>

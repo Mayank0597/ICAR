@@ -45,7 +45,7 @@ const PreventionSection = () => {
         <img
           src={window.innerWidth < 768 ? mobile :image1}
           alt="Prevention Top"
-          className="md:w-[560px] w-full md:h-auto h-[370px] rounded relative z-20 md:mb-0 mb-[30px] md:mt-0 -mt-20 "
+          className="md:w-[560px] w-full h-auto  rounded relative z-20 md:mb-0 mb-[30px] md:mt-0 -mt-20 "
         />
         {/* Bottom Image */}
         <img

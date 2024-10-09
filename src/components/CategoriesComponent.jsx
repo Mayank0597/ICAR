@@ -20,13 +20,13 @@ const Categories = () => {
       </div>
 
       {/* Card 1 */}
-      <div className="flex flex-col lg:flex-row bg-[#ECF2E6] md:pl-8 md:pt-8 md:pb-8 md:pr-[86px] pl-5 pr-5 pt-5 pb-11 md:mb-16 mb-[38px] rounded-lg gap-5">
+      <div className="flex flex-col lg:flex-row bg-[#ECF2E6] md:pl-8 md:pt-8 md:pb-8 md:pr-[86px] pl-5 pr-5 pt-4 pb-11 md:mb-16 mb-[38px] rounded-lg gap-5">
         {/* Left Image */}
         <div className="lg:w-2/5 md:mb-0 flex justify-start items-center">
           <img
             src={window.innerWidth < 768 ? LeftImageMobile : LeftImage}
             alt="Pesticide Category"
-            className="md:w-[444px] md:h-[391px] h-[273px] w-full"
+            className="md:w-[444px] h-auto w-full"
           />
         </div>
         {/* Right Content */}
@@ -47,51 +47,52 @@ const Categories = () => {
           </p>
 
           {/* Images with individual texts */}
-          <div className="flex flex-wrap justify-between md:justify-normal md:space-x-14">
-            <div className="text-center">
+          <div className="flex overflow-auto gap-2 md:gap-5">
+            <div className="min-w-[92px] max-w-[114px]">
               <img
                 src={img1}
                 alt="Pesticide Detail"
-                className="w-[92px] h-[77px] rounded mb-2"
+                className="w-full rounded mb-2"
               />
               <p className="text-[#000] text-[16px] font-normal text-left">
                 Sunn Pest
               </p>{" "}
             </div>
 
-            <div className="text-center">
+            <div className="min-w-[92px] max-w-[114px]">
               <img
                 src={img2}
                 alt="Pesticide Detail"
-                className="w-[92px] h-[77px] rounded mb-2"
+                className="w-full rounded mb-2"
               />
               <p className="text-[#000] text-[16px] font-normal text-left">
                 Rape Beetle
               </p>{" "}
             </div>
 
-            <div className="text-center">
+            <div className="min-w-[92px] max-w-[114px]">
               <img
                 src={img3}
                 alt="Pesticide Detail"
-                className="w-[92px] h-[77px] rounded mb-2"
+                className="w-full rounded mb-2"
               />
-              <p className="text-[#000] text-[16px] font-normal text-left">
+              <p className="text-[#000] text-[16px] font-normal text-left md:mt-0 mt">
                 African Cotton Leaform
               </p>{" "}
             </div>
+            
           </div>
         </div>
       </div>
 
       {/* Card 2 */}
-      <div className="flex flex-col lg:flex-row-reverse bg-[#ECF2E6] md:pr-8 md:pt-8 md:pb-8 md:pl-[37px] pl-5 pr-5 pt-5 pb-[35px] rounded-lg gap-5">
+      <div className="flex flex-col lg:flex-row-reverse bg-[#ECF2E6] md:pr-8 md:pt-8 md:pb-8 md:pl-[37px] pl-5 pr-5 pt-4 pb-[35px] rounded-lg gap-5">
         {/* Right Image */}
         <div className="lg:w-2/5 lg:mb-0 flex justify-end items-center">
           <img
             src={window.innerWidth < 768 ? RightImageMobile : RightImage}
             alt="Pesticide Category"
-            className="md:w-[444px] md:h-[391px] h-[273px] w-full"
+            className="md:w-[444px] h-auto w-full"
           />
         </div>
         {/* Left Content */}
@@ -122,9 +123,9 @@ const Categories = () => {
           </div>
           <p>Some additional information here.</p> */}
           {/* Images with individual texts */}
-          <div className="flex flex-wrap justify-between md:justify-normal md:space-x-14">
+          <div className="flex overflow-auto gap-2 md:gap-5">
             {/* First Image and Text */}
-            <div className="text-center">
+            <div className="min-w-[92px] max-w-[114px]">
               <img
                 src={img4}
                 alt="Pesticide Detail"
@@ -137,7 +138,7 @@ const Categories = () => {
             </div>
 
             {/* Second Image and Text */}
-            <div className="text-center">
+            <div className="min-w-[92px]">
               <img
                 src={img5}
                 alt="Pesticide Detail"

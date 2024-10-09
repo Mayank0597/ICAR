@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
 
         {/* Section 2: Social Media */}
-        <div className="md:mb-[60px] md:pt-[82px] pt-[60px] md:px-0 px-[116px]">
+        <div className="md:mb-[60px] md:pt-[82px] md:px-0 px-[80px]">
           <h3 className="text-[19px] font-semibold mb-4 text-center">Follow Us On:</h3>
           <div className="flex space-x-5 justify-center">
             <Link
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         {/* Section 3: Quick Links */}
-        <div className="md:mb-[60px] md:pt-[82px] pt-[45px] md:px-0 px-[116px]">
+        <div className="md:mb-[60px] md:pt-[82px] pt-[45px] md:px-0 px-[80px]">
           <h3 className="text-[19px] font-semibold mb-4 text-center">Quick Links</h3>
           <ul className="space-y-3 text-center">
             <li>
